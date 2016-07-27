@@ -522,7 +522,8 @@ textarea {
 }
 .menu-toggle {
 	box-shadow: none;
-	color: #fff;
+	color: #e950ac;
+	background-color: #ffffff;
 	display: block;
 	font-family: "Open Sans", "Source Sans Pro", Arial, sans-serif;
 	font-size: 14px;
@@ -536,7 +537,7 @@ textarea {
 }
 .menu-toggle:hover,
 .menu-toggle:focus {
-	color: #fff;
+	color: #4f4f4f;
 	background: none;
 }
 .menu-toggle:before {
