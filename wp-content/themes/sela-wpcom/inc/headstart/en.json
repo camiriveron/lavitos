@@ -1,0 +1,293 @@
+{
+    "settings": {
+        "options": {
+            "show_on_front": "page"
+        },
+        "theme_mods": {
+            "0": false,
+            "nav_menu_locations": {
+                "social": "social",
+                "primary": "primary"
+            },
+            "header_textcolor": "333",
+            "background_image": "",
+            "background_repeat": "repeat",
+            "background_position_x": "left",
+            "background_attachment": "scroll",
+            "jetpack_testimonials": {
+                "page-title": "Testimonials",
+                "page-content": "<p>This is a testimonial archive page. You can customize this text in <a href=\"http:\/\/en.support.wordpress.com\/customizer\/\">the Customizer<\/a>.<\/p>\n<p>Testimonials page can be added to <a href=\"http:\/\/en.support.wordpress.com\/menus\/\u201c title=\u201cCustom Menu\">Custom Menu<\/a> using the <a href=\u201chttp:\/\/en.support.wordpress.com\/menus\/#adding-custom-links\u201d title=\u201cLinks Panel\">Links Panel<\/a>.<\/p>\n<p>The testimonial archive page can be found at http:\/\/mygroovysite.wordpress.com\/testimonial\/ \u2014 just replace http:\/\/mygroovysite.wordpress.com\/ with the URL of your website.<\/p>\n",
+                "featured-image": 106
+            },
+            "colors_manager": {
+                "colors": {
+                    "bg": "#f0f0f0",
+                    "txt": "#404040",
+                    "link": "#f25f70",
+                    "fg1": "#404040",
+                    "fg2": "#404040"
+                },
+                "cached": false
+            },
+            "custom-colors-parity": {
+                "background_image": "",
+                "background_color": "",
+                "background_repeat": "repeat",
+                "background_position_x": "left",
+                "background_attachment": "scroll"
+            }
+        },
+        "headstart": {
+            "mapped_id_options": [],
+            "mapped_id_theme_mods": []
+        }
+    },
+    "widgets": [
+        {
+            "id": "search-2",
+            "id_base": "search",
+            "settings": {
+                "title": "Search"
+            },
+            "sidebar": "sidebar-1",
+            "position": 0
+        },
+        {
+            "id": "recent-posts-2",
+            "id_base": "recent-posts",
+            "settings": {
+                "title": "",
+                "number": 5,
+                "show_date": false
+            },
+            "sidebar": "sidebar-1",
+            "position": 1
+        },
+        {
+            "id": "archives-2",
+            "id_base": "archives",
+            "settings": {
+                "title": "Archives",
+                "count": 0,
+                "dropdown": 0
+            },
+            "sidebar": "sidebar-1",
+            "position": 3
+        },
+        {
+            "id": "widget_contact_info-3",
+            "id_base": "widget_contact_info",
+            "settings": {
+                "title": "Contact us",
+                "address": "3999 Mission Boulevard,\r\nSan Diego CA 92109",
+                "phone": "1-202-555-1212",
+                "hours": "",
+                "lat": 32.7896284,
+                "lon": -117.2528655,
+                "showmap": 1
+            },
+            "sidebar": "sidebar-2",
+            "position": 0
+        },
+        {
+            "id": "text-2",
+            "id_base": "text",
+            "settings": {
+                "title": "About Sela",
+                "text": "Sela is not your typical business theme. Vibrant, bold, and clean, with lots of space for large images, it\u2019s a perfect canvas to tell your company\u2019s story.\r\nSela is responsive, which means it adapts to any screen, providing your visitors with a great browsing experience on any device.\r\n",
+                "filter": true,
+                "syntaxhighlighter_encoded": true
+            },
+            "sidebar": "sidebar-3",
+            "position": 0
+        },
+        {
+            "id": "nav_menu-2",
+            "id_base": "nav_menu",
+            "settings": {
+                "title": "Navigation",
+                "nav_menu": "primary"
+            },
+            "sidebar": "sidebar-4",
+            "position": 0
+        },
+        {
+            "id": "text-3",
+            "id_base": "text",
+            "settings": {
+                "title": "Text Widget",
+                "text": "<img src=\"https:\/\/selademo.files.wordpress.com\/2014\/08\/mg_9371-1.jpg\" \/>This is a text widget. The Text Widget allows you to add text or HTML to your sidebar. You can use a text widget to display text, links, images, HTML, or a combination of these. Edit them in the Widget section of the <a href=\"https://wordpress.com/customize/\">Customizer</a>.",
+                "filter": false,
+                "syntaxhighlighter_encoded": true
+            },
+            "sidebar": "sidebar-5",
+            "position": 0
+        },
+        {
+            "id": "text-4",
+            "id_base": "text",
+            "settings": {
+                "title": "Text Widget",
+                "text": "<img src=\"https:\/\/selademo.files.wordpress.com\/2014\/08\/mg_9438-1.jpg\" \/>This is a text widget. The Text Widget allows you to add text or HTML to your sidebar. You can use a text widget to display text, links, images, HTML, or a combination of these. Edit them in the Widget section of the <a href=\"https://wordpress.com/customize/\">Customizer</a>.",
+                "filter": false,
+                "syntaxhighlighter_encoded": true
+            },
+            "sidebar": "sidebar-6",
+            "position": 0
+        },
+        {
+            "id": "text-5",
+            "id_base": "text",
+            "settings": {
+                "title": "Text Widget",
+                "text": "<img src=\"https:\/\/selademo.files.wordpress.com\/2011\/07\/digital-camera-349873_1280.jpg\" \/>This is a text widget. The Text Widget allows you to add text or HTML to your sidebar. You can use a text widget to display text, links, images, HTML, or a combination of these. Edit them in the Widget section of the <a href=\"https://wordpress.com/customize/\">Customizer</a>.",
+                "filter": false,
+                "syntaxhighlighter_encoded": true
+            },
+            "sidebar": "sidebar-7",
+            "position": 0
+        }
+    ],
+    "content": [
+        {
+            "post_title": "Home",
+            "post_content": "Welcome to your new site!  You can edit this page by clicking on the Edit link.  For more information about customizing your site check out <a href=\"http:\/\/learn.wordpress.com\/\">http:\/\/learn.wordpress.com\/<\/a>",
+            "post_excerpt": "This is the home page's excerpt",
+            "post_status": "publish",
+            "menu_order": 0,
+            "comment_status": "closed",
+            "ping_status": "closed",
+            "post_type": "page",
+            "hs_custom_meta": "_hs_front_page",
+            "hs_sharing": 1,
+            "hs_like_status": 1,
+            "hs_old_id": 60,
+            "attachment_url": "https:\/\/selademo.files.wordpress.com\/2014\/08\/desktop5.jpg",
+            "page_template": "page-templates\/front-page.php"
+        },
+        {
+            "post_title": "About",
+            "post_content": "This is an example of an about page. Unlike posts, pages are better suited for more timeless content that you want to be easily accessible, like your About or Contact information. Click the Edit link to make changes to this page or <a href=\"https:\/\/wordpress.com\/page\">add another page<\/a>.",
+            "post_excerpt": "This is just a short excerpt for the about&nbsp;page.",
+            "post_status": "publish",
+            "menu_order": 1,
+            "comment_status": "closed",
+            "ping_status": "closed",
+            "post_type": "page",
+            "hs_custom_meta": "_hs_about_page",
+            "hs_sharing": 1,
+            "hs_like_status": 1,
+            "hs_old_id": 61,
+            "attachment_url": "https:\/\/edindemo.files.wordpress.com\/2014\/07\/grid1.jpg"
+        },
+        {
+            "post_title": "Contact",
+            "post_content": "This is a contact page with some basic contact information and a contact form. [contact-form][contact-field label=\"Name\" type=\"name\" required=\"1\"\/][contact-field label=\"Email\" type=\"email\" required=\"1\"\/][contact-field label=\"Website\" type=\"url\"\/][contact-field label=\"Comment\" type=\"textarea\" required=\"1\"\/][\/contact-form]",
+            "post_excerpt": "This is just a short excerpt for the contact&nbsp;page.",
+            "post_status": "publish",
+            "menu_order": 2,
+            "comment_status": "closed",
+            "ping_status": "closed",
+            "post_type": "page",
+            "hs_custom_meta": "_hs_contact_page",
+            "hs_sharing": 1,
+            "hs_like_status": 1,
+            "hs_old_id": 62,
+            "attachment_url": "https:\/\/edindemo.files.wordpress.com\/2014\/07\/full-width1.jpg"
+        },
+        {
+            "post_title": "Blog",
+            "post_content": "This is the page where users will find your site's blog",
+            "post_excerpt": "This is just a short excerpt about your blog.",
+            "post_status": "publish",
+            "menu_order": 3,
+            "comment_status": "closed",
+            "ping_status": "closed",
+            "post_type": "page",
+            "hs_custom_meta": "_hs_blog_page",
+            "hs_sharing": 1,
+            "hs_like_status": 1,
+            "hs_old_id": 63
+        },
+        {
+            "post_title": "First blog post",
+            "post_content": "This is your very first post. Click the Edit link to modify or delete it, or <a href=\"https:\/\/wordpress.com\/post\">start a new post<\/a>. If you like, use this post to tell readers why you started this blog and what you plan to do with it.",
+            "post_excerpt": "This is the excerpt for your very first post.",
+            "post_status": "publish",
+            "comment_status": "open",
+            "ping_status": "open",
+            "post_type": "post",
+            "hs_custom_meta": "_hs_first_post",
+            "hs_sharing": 1,
+            "hs_like_status": 0,
+            "attachment_url": "https:\/\/edindemo.files.wordpress.com\/2014\/07\/alternate-sidebar1.jpg"
+        }
+    ],
+    "menus": {
+        "social": {
+            "name": "Social",
+            "items": [
+                {
+                    "menu-item-title": "Facebook",
+                    "menu-item-db-id": 108,
+                    "menu-item-object-id": "108",
+                    "menu-item-object": "custom",
+                    "menu-item-type": "custom",
+                    "menu-item-status": "publish",
+                    "menu-item-position": 1,
+                    "menu-item-parent-id": "0",
+                    "menu-item-description": "",
+                    "menu-item-url": "http:\/\/facebook.com\/"
+                },
+                {
+                    "menu-item-title": "Twitter",
+                    "menu-item-db-id": 109,
+                    "menu-item-object-id": "109",
+                    "menu-item-object": "custom",
+                    "menu-item-type": "custom",
+                    "menu-item-status": "publish",
+                    "menu-item-position": 2,
+                    "menu-item-parent-id": "0",
+                    "menu-item-description": "",
+                    "menu-item-url": "http:\/\/twitter.com\/wordpressdotcom"
+                },
+                {
+                    "menu-item-title": "Pinterest",
+                    "menu-item-db-id": 110,
+                    "menu-item-object-id": "110",
+                    "menu-item-object": "custom",
+                    "menu-item-type": "custom",
+                    "menu-item-status": "publish",
+                    "menu-item-position": 3,
+                    "menu-item-parent-id": "0",
+                    "menu-item-description": "",
+                    "menu-item-url": "http:\/\/pinterest.com"
+                },
+                {
+                    "menu-item-title": "Flickr",
+                    "menu-item-db-id": 111,
+                    "menu-item-object-id": "111",
+                    "menu-item-object": "custom",
+                    "menu-item-type": "custom",
+                    "menu-item-status": "publish",
+                    "menu-item-position": 4,
+                    "menu-item-parent-id": "0",
+                    "menu-item-description": "",
+                    "menu-item-url": "http:\/\/flickr.com"
+                },
+                {
+                    "menu-item-title": "Instagram",
+                    "menu-item-db-id": 112,
+                    "menu-item-object-id": "112",
+                    "menu-item-object": "custom",
+                    "menu-item-type": "custom",
+                    "menu-item-status": "publish",
+                    "menu-item-position": 5,
+                    "menu-item-parent-id": "0",
+                    "menu-item-description": "",
+                    "menu-item-url": "http:\/\/instagram.com"
+                }
+            ]
+        }
+    }
+}
