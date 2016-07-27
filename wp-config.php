@@ -16,6 +16,9 @@
 
 $_SERVER['HTTPS'] = 'on';
 
+//Wordpress in spanish
+define('WPLANG','es_ES');
+
 // ** Heroku Postgres settings - from Heroku Environment ** //
 $db = parse_url($_ENV["DATABASE_URL"]);
 
