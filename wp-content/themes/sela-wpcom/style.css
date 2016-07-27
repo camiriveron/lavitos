@@ -539,6 +539,7 @@ textarea {
 .menu-toggle:focus {
 	color: #4f4f4f;
 	background: none;
+	border: none;
 }
 .menu-toggle:before {
 	content: "\f419";
@@ -983,6 +984,10 @@ textarea {
 	   -moz-background-size: cover;
 		 -o-background-size: cover;
 			background-size: cover;
+	display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
 }
 .site-branding,
 .site-navigation {
@@ -1006,10 +1011,11 @@ textarea {
 	width: auto;
 }
 .site-title {
-	font-size: 36px;
-	font-size: 3.6rem;
+	font-size: 7rem;
 	line-height: 1.3333;
 	margin-bottom: 0;
+	text-transform: capitalize;
+    font-family: 'Meddon', cursive;
 }
 .site-title a {
 	color: #333;
