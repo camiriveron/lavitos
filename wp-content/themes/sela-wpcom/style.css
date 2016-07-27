@@ -984,10 +984,6 @@ textarea {
 	   -moz-background-size: cover;
 		 -o-background-size: cover;
 			background-size: cover;
-	display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
 }
 .site-branding,
 .site-navigation {
@@ -996,10 +992,10 @@ textarea {
 	min-height: 200px;
     background-size: 70%;
     position: relative;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: flex-end;
+	display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
 }
 .site-branding a + .site-title {
 	margin-top: 0.6667em;
