@@ -126,6 +126,14 @@ function sela_widgets_init() {
 		'after_title'   => '</h3>',
 	) );
 	register_sidebar( array(
+		'name'          => __( 'Before Footer Widget Area', 'sela' ),
+		'id'            => 'sidebar-instagram',
+		'before_widget' => '<aside id="%1$s" class="widget %2$s">',
+		'after_widget'  => '</aside>',
+		'before_title'  => '<h3 class="widget-title">',
+		'after_title'   => '</h3>',
+	) );
+	register_sidebar( array(
 		'name'          => __( 'First Footer Widget Area', 'sela' ),
 		'id'            => 'sidebar-2',
 		'before_widget' => '<aside id="%1$s" class="widget %2$s">',

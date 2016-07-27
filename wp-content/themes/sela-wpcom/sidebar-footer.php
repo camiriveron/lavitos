@@ -11,9 +11,11 @@ if ( ! is_active_sidebar( 'sidebar-2' ) && ! is_active_sidebar( 'sidebar-3' ) &&
 	return;
 }
 ?>
-<div class="widget-area footer-widget-area">
-	
-</div>
+<?php if ( is_active_sidebar( 'sidebar-instagram' ) ) : ?>
+	<div class="widget-area footer-widget-area">
+		<?php dynamic_sidebar( 'sidebar-instagram' ); ?>
+	</div>
+<?php endif; ?>
 <div id="tertiary" class="widget-area footer-widget-area" role="complementary">
 	<?php if ( is_active_sidebar( 'sidebar-2' ) ) : ?>
 	<div id="widget-area-2" class="widget-area">
