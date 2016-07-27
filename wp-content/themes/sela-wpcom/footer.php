@@ -7,6 +7,7 @@
 ?>
 
 	</div><!-- #content -->
+</div><!-- #page -->
 
 	<?php get_sidebar( 'footer' ); ?>
 
@@ -21,7 +22,6 @@
 			<?php printf( __( 'Theme: %1$s by %2$s.', 'sela' ), 'sela', '<a href="https://wordpress.com/themes/" rel="designer">WordPress.com</a>' ); ?>
 		</div><!-- .site-info -->
 	</footer><!-- #colophon -->
-</div><!-- #page -->
 
 <?php wp_footer(); ?>
 
