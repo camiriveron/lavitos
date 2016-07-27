@@ -19,7 +19,7 @@
 		<div class="site-info"  role="contentinfo">
 			<span>© 2016 - Lavitos. Todos los derechos reservados.</span>
 			<span class="sep"> | </span>
-			<?php printf( __( 'Theme: %1$s by %2$s adaptado por %3$s.', 'sela' ), 'sela', '<a href="https://wordpress.com/themes/" rel="designer">WordPress.com</a>',
+			<?php printf( __( 'Tema: %1$s adaptado por %2$s.', 'sela' ), '<a href="https://wordpress.com/themes/" rel="designer">Sela</a>',
 				'<a href="https://github.com/camiriveron" rel="designer">Camila Riverón</a>' ); ?>
 		</div><!-- .site-info -->
 	</footer><!-- #colophon -->
