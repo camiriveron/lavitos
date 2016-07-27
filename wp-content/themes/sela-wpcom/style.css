@@ -1882,6 +1882,10 @@ video {
 		display: none;
 	}
 
+	.site-header {
+		width: 100%
+	}
+
 	/* Front Page */
 	.hero-content-overlayer {
 		overflow: auto;
