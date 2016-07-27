@@ -555,6 +555,11 @@ textarea {
 	clear: both;
 	margin: 0 auto 1.5em;
 }
+.social-links--header {
+	position: absolute;
+	 top: 1em;
+	 right: 10%;
+}
 .social-links ul {
 	list-style: none;
 	margin: 0;
@@ -963,6 +968,7 @@ textarea {
 
 /* Site Header */
 .site-branding {
+	position: relative;
 	background: #fff;
 	background-position: center;
 	background-repeat: no-repeat;
