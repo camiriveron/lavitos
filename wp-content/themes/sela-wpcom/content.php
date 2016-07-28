@@ -16,8 +16,6 @@
 		<?php endif; ?>
 	</header><!-- .entry-header -->
 
-	<?php echo do_shortcode('[carousel-horizontal-posts-content-slider]'); ?>
-
 	<div class="entry-body">
 
 		<?php if ( 'post' == get_post_type() ) : ?>
