@@ -19,7 +19,7 @@
 		require 'advps-admin.php';
 	}
 	
-	define('advps_url',WP_PLUGIN_URL."/advanced-post-slider/");
+	define('advps_url',plugins_url()."/advanced-post-slider/");
 	
 	require 'advps-db.php';
 	
