@@ -51,12 +51,7 @@
     		 'order' => 'DESC', );
 			$recent_posts = wp_get_recent_posts( $args );
 			foreach( $recent_posts as $recent ){
-				if(has_post_thumbnail()) {                    
-				    $image_src = wp_get_attachment_image_src( get_post_thumbnail_id(), 'full' );
-				    echo $image_src[0];
-				    // echo '<img src="' . $image_src[0]  . '" width="100%"  />';
-				} 
-				//echo '<div class="item">'. get_the_post_thumbnail( $recent["ID"], 'sela-grid-thumbnail' ) .'</div> ';
+				echo '<div class="item">'. get_the_post_thumbnail( $recent["ID"], 'sela-carousel-thumbnail' ) .'</div> ';
 				// '<a href="' . get_permalink($recent["ID"]) . '">' .   $recent["post_title"].'</a>
 				//get_the_post_thumbnail_url( $recent["ID"] )
 			}
