@@ -2147,7 +2147,7 @@ video {
 }
 
 .l-carousel .owl-carousel .owl-item {
-	height: 350px;
+	height: 350px !important;
 }
 
 .l-carousel .owl-carousel .owl-item .item {
@@ -2155,5 +2155,9 @@ video {
     height: 350px;
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+.l-carousel .owl-carousel .owl-item .item img {
+    width: 100%;
 }
 
