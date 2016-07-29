@@ -39,7 +39,8 @@ get_header(); ?>
         autoPlay: 100000,
         items : 3,
         itemsDesktop : [1199,3],
-        itemsDesktopSmall : [979,3]
+        itemsDesktopSmall : [979,3],
+        navigation : true
       });
 
 })( jQuery );
