@@ -10,17 +10,17 @@ get_header(); ?>
 	<?php if ( have_posts() ) : ?>
 
 		<h2>Recent Posts</h2>
-		<ul>
+		<div id="owl-demo" class="owl-carousel">
 		<?php
 			$args = array( 'numberposts' => '5',
 			 'orderby' => 'post_date',
     		 'order' => 'DESC', );
 			$recent_posts = wp_get_recent_posts( $args );
 			foreach( $recent_posts as $recent ){
-				echo '<li><a href="' . get_permalink($recent["ID"]) . '">' .   $recent["post_title"].'</a> </li> ';
+				echo '<div class="item"><a href="' . get_permalink($recent["ID"]) . '">' .   $recent["post_title"].'</a> </div> ';
 			}
 		?>
-		</ul>
+		</div>
 
 	<?php endif; ?>
 
@@ -52,6 +52,12 @@ get_header(); ?>
 (function($) {
 
 	console.log("Hello Index!");
+	$("#owl-demo").owlCarousel({
+        autoPlay: 100000,
+        items : 3,
+        itemsDesktop : [1199,3],
+        itemsDesktopSmall : [979,3]
+      });
 
 })( jQuery );
 </script>
