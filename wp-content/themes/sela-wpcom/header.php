@@ -51,7 +51,7 @@
     		 'order' => 'DESC', );
 			$recent_posts = wp_get_recent_posts( $args );
 			foreach( $recent_posts as $recent ){
-				echo '<div class="item">'. get_the_post_thumbnail( $post = $recent, $size = 'post-thumbnail', $attr = '' ) .'</div> ';
+				echo '<div class="item">'. get_the_post_thumbnail( $recent ) .'</div> ';
 				// '<a href="' . get_permalink($recent["ID"]) . '">' .   $recent["post_title"].'</a>
 			}
 		?>
