@@ -191,6 +191,12 @@ function sela_scripts_styles() {
 	// Add Oswald, Source Sans Pro and Droid Serif fonts.
 	wp_enqueue_style( 'sela-fonts', sela_fonts_url(), array(), null );
 
+	// Owl carousel
+	wp_enqueue_style( 'owl-carousel-style', get_template_directory_uri() . '/owl-carousel/owl.carousel.css', array(), '1.3.3' );
+
+	// Owl carousel
+	wp_enqueue_style( 'owl-carousel-theme', get_template_directory_uri() . '/owl-carousel/owl.theme.css', array(), '1.3.3' );
+
 	// Add Genericons font.
 	wp_enqueue_style( 'genericons', get_template_directory_uri() . '/fonts/genericons.css', array(), '3.4.1' );
 
@@ -210,6 +216,8 @@ function sela_scripts_styles() {
 	if ( is_singular() && wp_attachment_is_image() ) {
 		wp_enqueue_script( 'sela-keyboard-image-navigation', get_template_directory_uri() . '/js/keyboard-image-navigation.js', array( 'jquery' ), '20130922' );
 	}
+
+	 wp_enqueue_script( 'owl-carousel', get_template_directory_uri() . '/owl-carousel/owl.carousel.js', array( 'jquery' ), '1.3.3', true );
 }
 add_action( 'wp_enqueue_scripts', 'sela_scripts_styles' );
 
