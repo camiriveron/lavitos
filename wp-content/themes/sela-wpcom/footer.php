@@ -26,5 +26,11 @@
 
 <?php wp_footer(); ?>
 
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<link rel="stylesheet" href="owl-carousel/owl.carousel.css">
+<link rel="stylesheet" href="owl-carousel/owl.theme.css">
+<script src="owl-carousel/owl.carousel.js"></script>
+
 </body>
 </html>
