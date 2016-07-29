@@ -43,8 +43,6 @@
 		</nav><!-- #site-navigation -->
 	</header><!-- #masthead -->
 	<?php if ( have_posts() ) : ?>
-
-		<h2>Recent Posts</h2>
 		<div id="owl-demo" class="owl-carousel">
 		<?php
 			$args = array( 'numberposts' => '5',
