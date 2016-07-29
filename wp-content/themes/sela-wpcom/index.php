@@ -7,23 +7,6 @@
 
 get_header(); ?>
 
-	<?php if ( have_posts() ) : ?>
-
-		<h2>Recent Posts</h2>
-		<div id="owl-demo" class="owl-carousel">
-		<?php
-			$args = array( 'numberposts' => '5',
-			 'orderby' => 'post_date',
-    		 'order' => 'DESC', );
-			$recent_posts = wp_get_recent_posts( $args );
-			foreach( $recent_posts as $recent ){
-				echo '<div class="item"><a href="' . get_permalink($recent["ID"]) . '">' .   $recent["post_title"].'</a> </div> ';
-			}
-		?>
-		</div>
-
-	<?php endif; ?>
-
 	<div id="primary" class="content-area">
 		<main id="main" class="site-main" role="main">
 
