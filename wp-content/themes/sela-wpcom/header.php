@@ -42,7 +42,7 @@
 			<?php wp_nav_menu( array( 'theme_location' => 'primary' ) ); ?>
 		</nav><!-- #site-navigation -->
 	</header><!-- #masthead -->
-	
+
 	<?php if ( have_posts() ) : ?>
 		<div id="owl-demo" class="owl-carousel">
 		<?php
@@ -51,7 +51,7 @@
     		 'order' => 'DESC', );
 			$recent_posts = wp_get_recent_posts( $args );
 			foreach( $recent_posts as $recent ){
-				echo '<div class="item">'. get_the_post_thumbnail($recent) .'</div> ';
+				echo '<div class="item">'. get_post_meta( $recent["ID"], '_thumbnail_id', true ) .'</div> ';
 				// '<a href="' . get_permalink($recent["ID"]) . '">' .   $recent["post_title"].'</a>
 			}
 		?>
