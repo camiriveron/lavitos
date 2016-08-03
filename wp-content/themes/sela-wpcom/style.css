@@ -2180,7 +2180,8 @@ video {
     background-size: cover;
 }
 
-.l-carousel__title {
+.l-carousel__title, .l-carousel__date {
 	color: #ffffff;
+	padding-right: 3em;
 }
 

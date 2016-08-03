@@ -53,6 +53,7 @@
 				<div class="l-carousel__hover">
 					<a href="<?php the_permalink(); ?>" title="<?php the_title_attribute(); ?>">
 						<h1 class="l-carousel__title"><?php the_title_attribute(); ?></h1>
+						<h2 class="l-carousel__date"> <?php the_date('d-m-Y'); ?> </h2>
 					</a>
 				</div>
 			</div>
