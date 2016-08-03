@@ -292,6 +292,8 @@ function sela_post_thumbnail() {
 	?>
 
 	<div class="post-thumbnail">
+		<?php get_the_post_thumbnail('sela-post-thumbnail'); ?>
+
 		<?php the_post_thumbnail('sela-post-thumbnail'); ?>
 	</div>
 
