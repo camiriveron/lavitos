@@ -52,7 +52,7 @@ function sela_setup() {
 	add_theme_support( 'post-thumbnails' );
 
 	// Post thumbnails
-	set_post_thumbnail_size( 820, 312, array( 'center', 'center' ));
+	set_post_thumbnail_size( 820, 312, true );
 	// Hero Image on the front page template
 	add_image_size( 'sela-hero-thumbnail', 1180, 610, true );
 	// Full width and grid page template
