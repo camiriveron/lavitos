@@ -34,10 +34,8 @@ get_header(); ?>
 <script>
 (function($) {
 
-	console.log("Hello Index!");
 	$("#owl-demo").owlCarousel({
-        autoPlay: 100000,
-        items : 3,
+        items : 4,
         itemsDesktop : [1199,3],
         itemsDesktopSmall : [979,3],
         navigation : true

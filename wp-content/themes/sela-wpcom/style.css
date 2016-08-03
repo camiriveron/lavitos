@@ -2168,7 +2168,7 @@ video {
 	flex-direction: column;
 	justify-content: flex-end;
 	align-items: flex-end;
-	transition: all .3s cubic-bezier(.17,.67,.83,.67);
+	transition: all .3s linear;
 }
 
 .l-carousel .l-carousel__image:hover .l-carousel__hover {

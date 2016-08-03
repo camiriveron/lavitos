@@ -55,7 +55,6 @@
 					<h4 class="l-carousel__subtitle"><?php the_time('d-m-Y') ?> por: <?php the_author() ?> </h4>
 				</a>
 			</div>
-
 		<?php endwhile; ?>
 	</div>
 
