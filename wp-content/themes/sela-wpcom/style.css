@@ -2170,7 +2170,9 @@ video {
     top: 50%;
     transform: translateY(-50%);
     border-radius: 50%;
-    background-color: rgba(0,0,0,0.3);
+    background-color: rgba(0,0,0,0.6);
+    opacity: 0.6;
+    transition: opacity .3s linear;
 }
 
 .l-carousel-previous {
@@ -2182,7 +2184,7 @@ video {
 }
 
 .l-carousel-next:hover, .l-carousel-previous:hover {
-	background-color: rgba(0,0,0,0.6);
+	opacity: 1;
 }
 
 .l-carousel__hover {
