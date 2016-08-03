@@ -41,7 +41,8 @@ get_header(); ?>
         itemsDesktop : [1199,3],
         itemsDesktopSmall : [979,3],
         navigation : false,
-        pagination: false,
+        pagination: true,
+        slideSpeed: 300,
      });
 
 	$('.l-carousel-previous ').on('click', function(){
