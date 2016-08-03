@@ -2162,19 +2162,25 @@ video {
 }
 
 .l-carousel-previous {
-	position: absolute;
-	font-size: 3rem;
-	color: #ffffff;
-	z-index: 100;
-	cursor: pointer;
+    position: absolute;
+    font-size: 6rem;
+    color: #ffffff;
+    z-index: 100;
+    cursor: pointer;
+    top: 50%;
+    left: 5px;
+    transform: translateY(-50%);
 }
 
 .l-carousel-next {
 	position: absolute;
-	font-size: 3rem;
+	font-size: 6rem;
 	color: #ffffff;
 	z-index: 100;
 	cursor: pointer;
+    transform: translateY(-50%);
+    top: 50%;
+    right: 5px;
 }
 
 .l-carousel__hover {
