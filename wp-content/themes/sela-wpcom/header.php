@@ -53,7 +53,7 @@
 				<div class="l-carousel__hover">
 					<a href="<?php the_permalink(); ?>" title="<?php the_title_attribute(); ?>">
 						<h1 class="l-carousel__title"><?php the_title_attribute(); ?></h1>
-						<h5 class="l-carousel__subtitle"><?php the_time('F jS, Y') ?> <!-- by <?php the_author() ?> --></h5>
+						<h5 class="l-carousel__subtitle"><?php the_time('d-m-Y') ?> por: <?php the_author() ?> </h5>
 					</a>
 				</div>
 			</div>
