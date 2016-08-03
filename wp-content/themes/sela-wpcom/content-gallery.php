@@ -7,7 +7,7 @@
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 
 	<?php if ( '' != get_the_post_thumbnail() && ! post_password_required() ) : ?>
-	<?php sela_post_thumbnail(); ?>
+	<?php sela_post_thumbnail('sela-post-thumbnail'); ?>
 	<?php endif; ?>
 
 	<header class="entry-header">
