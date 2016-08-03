@@ -2230,7 +2230,7 @@ video {
 	padding-right: 2rem;
 	padding-left: 3rem;
 	direction: rtl;
-	transition: all .3s linear;
+	transition: all .2s linear;
 }
 
 .l-carousel__title:hover {
