@@ -7,11 +7,7 @@
 
 get_header(); ?>
 
-
-<div id="page" class="hfeed site">
-	<div id="content" class="site-content">
-
-	<?php if ( have_posts() ) : ?>
+<?php if ( have_posts() ) : ?>
 			<?php query_posts( 'category_name=Cuentos&showposts=8' ); ?>
 		<div class="l-carousel__wrapper">
 			<span class="genericon genericon-previous l-carousel-previous"></span>
@@ -27,7 +23,11 @@ get_header(); ?>
 			</div>
 			<span class="genericon genericon-next l-carousel-next"></span>
 		</div>
-	<?php endif; ?>
+<?php endif; ?>
+
+
+<div id="page" class="hfeed site">
+	<div id="content" class="site-content">
 
 	<div id="primary" class="content-area">
 		<main id="main" class="site-main" role="main">
