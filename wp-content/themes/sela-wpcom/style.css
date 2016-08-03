@@ -2186,12 +2186,13 @@ video {
 
 .l-carousel__title {
 	color: #ffffff;
-	padding-right: 3rem;
+	padding-right: 2rem;
+	padding-left: 3rem;
 }
 
 .l-carousel__subtitle {
 	color: #ffffff;
-	padding-right: 3rem;
+	padding-right: 2rem;
 	font-size: 1.3rem;
 }
 
