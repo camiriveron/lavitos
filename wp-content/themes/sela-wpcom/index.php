@@ -40,7 +40,8 @@ get_header(); ?>
         items : 4,
         itemsDesktop : [1199,3],
         itemsDesktopSmall : [979,3],
-        navigation : false
+        navigation : false,
+        pagination: false,
      });
 
 	$('.l-carousel-previous ').on('click', function(){
