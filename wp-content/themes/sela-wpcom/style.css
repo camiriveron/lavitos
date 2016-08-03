@@ -2157,7 +2157,8 @@ video {
 }
 
 .l-carousel .item {
-	margin: 3px; 
+	margin-left: 3px;
+	margin-rigth: 3px;  
 }
 
 .l-carousel.owl-carousel .owl-item {
