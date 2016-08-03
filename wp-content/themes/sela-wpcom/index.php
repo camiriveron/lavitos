@@ -67,6 +67,7 @@ get_header(); ?>
         navigation : false,
         pagination: false,
         slideSpeed: 700,
+        scrollPerPage: true,
      });
 
 	$('.l-carousel-previous ').on('click', function(){
