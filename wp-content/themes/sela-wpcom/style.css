@@ -2155,23 +2155,21 @@ video {
 	position: relative;
 }
 
-.l-carousel.owl-carousel .owl-wrapper {
-	position: relative;
-}
-
-.l-carousel.owl-carousel .owl-wrapper:after {
+.l-carousel-previous {
 	position: absolute;
-	content: '\f429';
+	font-size: 3rem;
 	color: #ffffff;
+	z-index: 100;
+	cursor: pointer;
 }
 
-.l-carousel.owl-carousel .owl-wrapper:before {
-	content: '\f430';
-	color: #ffffff;
+.l-carousel-next {
 	position: absolute;
+	font-size: 3rem;
+	color: #ffffff;
+	z-index: 100;
+	cursor: pointer;
 }
-
-
 
 .l-carousel__hover {
 	opacity: 0;

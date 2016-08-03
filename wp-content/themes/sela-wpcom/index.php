@@ -34,12 +34,22 @@ get_header(); ?>
 <script>
 (function($) {
 
-	$("#owl-lavitos").owlCarousel({
+	var owl = $("#owl-lavitos");
+
+	owl.owlCarousel({
         items : 4,
         itemsDesktop : [1199,3],
         itemsDesktopSmall : [979,3],
         navigation : false
-      });
+     });
+
+	$('.l-carousel-previous ').on('click', function(){
+		owl.trigger('owl.prev');
+	});
+
+	$('.l-carousel-next ').on('click', function(){
+		owl.trigger('owl.next');
+	});
 
 })( jQuery );
 </script>
