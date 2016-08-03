@@ -2208,8 +2208,8 @@ video {
 	flex-direction: column;
 	justify-content: flex-end;
 	align-items: flex-end;
-	transition: all .4s linear;
-    background: linear-gradient(to bottom,rgba(23,31,35,0) 55%,rgba(0,0,0,1) 100%);
+	transition: all .3s linear;
+    background: linear-gradient(to bottom,rgba(0,0,0,0) 55%,rgba(0,0,0,1) 100%);
 }
 
 .l-carousel .l-carousel__image:hover .l-carousel__hover {
