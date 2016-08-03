@@ -2163,7 +2163,7 @@ video {
 
 .l-carousel-next, .l-carousel-previous {
 	position: absolute;
-    font-size: 4rem;
+    font-size: 3.5rem;
     color: #ffffff;
     z-index: 100;
     cursor: pointer;
