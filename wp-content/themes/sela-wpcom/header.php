@@ -51,7 +51,7 @@
 			<?php while ( have_posts() ) : the_post(); ?>
 				<?php if ( has_post_thumbnail() ) : ?>
 					<a href="<?php the_permalink(); ?>" title="<?php the_title_attribute(); ?>">
-					<img src="<?php the_post_thumbnail_url(); ?>"/>
+						<img src="<?php the_post_thumbnail_url('sela-carousel-thumbnail'); ?>"/>
 					</a>
 				<?php endif; ?>
 			<?php endwhile; ?>
