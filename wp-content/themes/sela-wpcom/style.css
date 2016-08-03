@@ -2171,7 +2171,7 @@ video {
     transform: translateY(-50%);
     border-radius: 50%;
     background-color: rgba(0,0,0,0.7);
-    opacity: 0.4;
+    opacity: 0.6;
     transition: opacity .4s linear;
 }
 
