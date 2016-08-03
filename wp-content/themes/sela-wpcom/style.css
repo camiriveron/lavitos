@@ -2164,20 +2164,23 @@ video {
 	width: 100%;
 	height: 100%;
 	background-color: rgba(0,0,0,0.5);
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
 }
 
 .l-carousel .l-carousel__image:hover .l-carousel__hover {
     visibility: visible;
 }
 
-/*.l-carousel__hover:hover {
-	visibility: visible;
-}*/
-
 .l-carousel .l-carousel__image {
     width: 100%;
     height: 400px;
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+.l-carousel__title {
+	color: #ffffff;
 }
 
