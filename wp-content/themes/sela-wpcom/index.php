@@ -46,11 +46,13 @@ get_header(); ?>
      });
 
 	$('.l-carousel-previous ').on('click', function(){
-		owl.trigger('owl.prev');
+		//owl.trigger('owl.prev');
+		owl.trigger('owl.goTo', 1);
 	});
 
 	$('.l-carousel-next ').on('click', function(){
-		owl.trigger('owl.next');
+		//owl.trigger('owl.next');
+		owl.trigger('owl.goTo', 8);
 	});
 
 })( jQuery );
