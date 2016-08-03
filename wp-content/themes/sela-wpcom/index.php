@@ -42,7 +42,7 @@ get_header(); ?>
         itemsDesktopSmall : [979,3],
         navigation : false,
         pagination: true,
-        slideSpeed: 300,
+        slideSpeed: 500,
      });
 
 	$('.l-carousel-previous ').on('click', function(){
