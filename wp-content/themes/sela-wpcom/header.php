@@ -49,7 +49,7 @@
 		<?php query_posts( 'category_name=Cuentos&showposts=6' ); ?>
 	<div id="owl-demo" class="owl-carousel l-carousel">
 		<?php while ( have_posts() ) : the_post(); ?>
-			<div class="item l-carousel__image" style="background-image=url(<?php the_post_thumbnail_url(); ?>)"></div>
+			<div class="item l-carousel__image" style="background-image:url(<?php the_post_thumbnail_url(); ?>)"></div>
 		<?php endwhile; ?>
 		</div>
 
