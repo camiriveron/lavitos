@@ -43,21 +43,19 @@
 		</nav><!-- #site-navigation -->
 	</header><!-- #masthead -->
 
-	<?php if ( have_posts() ) : ?>
-		<div id="owl-demo" class="owl-carousel l-carousel">
-		<?php
-		$args = array( 'numberposts' => '6',
-		'orderby' => 'post_date',
-		    'order' => 'DESC', );
-		$recent_posts = wp_get_recent_posts( $args );
-		foreach( $recent_posts as $recent ){
-		echo '<div class="item">'. get_the_post_thumbnail( $recent["ID"], 'sela-carousel-thumbnail' ) .'</div> ';
-		// '<a href="' . get_permalink($recent["ID"]) . '">' .   $recent["post_title"].'</a>
-		//get_the_post_thumbnail_url( $recent["ID"] )
-		}
-		?>
-		</div>
+	
 
+	<?php if ( have_posts() ) : ?>
+		<?php query_posts( 'category_name=Cuentos&showposts=6' ); ?>
+		<div id="owl-demo" class="owl-carousel l-carousel">
+			<?php while ( have_posts() ) : the_post(); ?>
+				<?php if ( has_post_thumbnail() ) : ?>
+					<a href="<?php the_permalink(); ?>" title="<?php the_title_attribute(); ?>">
+					<img src="<?php the_post_thumbnail_url(); ?>"/>
+					</a>
+				<?php endif; ?>
+			<?php endwhile; ?>
+		</div>
 	<?php endif; ?>
 
 <div id="page" class="hfeed site">
