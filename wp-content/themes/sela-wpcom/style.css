@@ -2163,24 +2163,28 @@ video {
 
 .l-carousel-previous {
     position: absolute;
-    font-size: 6rem;
+    font-size: 4rem;
     color: #ffffff;
     z-index: 100;
     cursor: pointer;
     top: 50%;
     left: 5px;
-    transform: translateY(-50%);
+    transform: translateY(-50%)rotate(90deg);
+    border-radius: 50%;
+    background-color: rgba(0,0,0,0.5);
 }
 
 .l-carousel-next {
 	position: absolute;
-	font-size: 6rem;
+	font-size: 4rem;
 	color: #ffffff;
 	z-index: 100;
 	cursor: pointer;
-    transform: translateY(-50%);
+    transform: translateY(-50%)rotate(90deg);
     top: 50%;
     right: 5px;
+    border-radius: 50%;
+    background-color: rgba(0,0,0,0.5);
 }
 
 .l-carousel__hover {
