@@ -48,7 +48,7 @@
 	<?php if ( have_posts() ) : ?>
 		<?php query_posts( 'category_name=Cuentos&showposts=8' ); ?>
 	<div class="l-carousel__wrapper">
-		<span class="genericon genericon-expand l-carousel-previous"></span>
+		<span class="genericon genericon-previous l-carousel-previous"></span>
 		<div id="owl-lavitos" class="owl-carousel l-carousel">
 			<?php while ( have_posts() ) : the_post(); ?>
 				<div class="item l-carousel__image" style="background-image:url(<?php the_post_thumbnail_url(); ?>)">
@@ -59,7 +59,7 @@
 				</div>
 			<?php endwhile; ?>
 		</div>
-		<span class="genericon genericon-expand l-carousel-next"></span>
+		<span class="genericon genericon-next l-carousel-next"></span>
 	</div>
 	<?php endif; ?>
 
