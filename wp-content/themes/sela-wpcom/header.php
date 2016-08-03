@@ -50,9 +50,10 @@
 		<div id="owl-demo" class="owl-carousel l-carousel">
 			<?php while ( have_posts() ) : the_post(); ?>
 				<?php if ( has_post_thumbnail() ) : ?>
-					<a href="<?php the_permalink(); ?>" title="<?php the_title_attribute(); ?>">
+					<div class="l-carousel__image" style="background-image=url('<?php the_post_thumbnail_url(); ?>')"></div>
+					<!-- <a href="<?php the_permalink(); ?>" title="<?php the_title_attribute(); ?>">
 						<img src="<?php the_post_thumbnail_url(); ?>"/>
-					</a>
+					</a> -->
 				<?php endif; ?>
 			<?php endwhile; ?>
 		</div>
