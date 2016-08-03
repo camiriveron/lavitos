@@ -34,11 +34,11 @@ get_header(); ?>
 <script>
 (function($) {
 
-	$("#owl-demo").owlCarousel({
+	$("#owl-lavitos").owlCarousel({
         items : 4,
         itemsDesktop : [1199,3],
         itemsDesktopSmall : [979,3],
-        navigation : true
+        navigation : false
       });
 
 })( jQuery );

@@ -2155,6 +2155,24 @@ video {
 	position: relative;
 }
 
+.l-carousel.owl-carousel .owl-wrapper {
+	position: relative;
+}
+
+.l-carousel.owl-carousel .owl-wrapper:after {
+	position: absolute;
+	content: '\f429';
+	color: #ffffff;
+}
+
+.l-carousel.owl-carousel .owl-wrapper:before {
+	content: '\f430';
+	color: #ffffff;
+	position: absolute;
+}
+
+
+
 .l-carousel__hover {
 	opacity: 0;
 	position: absolute;

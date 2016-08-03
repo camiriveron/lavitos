@@ -47,7 +47,7 @@
 
 	<?php if ( have_posts() ) : ?>
 		<?php query_posts( 'category_name=Cuentos&showposts=6' ); ?>
-	<div id="owl-demo" class="owl-carousel l-carousel">
+	<div id="owl-lavitos" class="owl-carousel l-carousel">
 		<?php while ( have_posts() ) : the_post(); ?>
 			<div class="item l-carousel__image" style="background-image:url(<?php the_post_thumbnail_url(); ?>)">
 				<a class="l-carousel__hover" href="<?php the_permalink(); ?>" title="<?php the_title_attribute(); ?>">
