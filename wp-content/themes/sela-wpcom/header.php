@@ -46,20 +46,21 @@
 	
 
 	<?php if ( have_posts() ) : ?>
-		<?php query_posts( 'category_name=Cuentos&showposts=6' ); ?>
-	<div id="owl-lavitos" class="owl-carousel l-carousel">
+		<?php query_posts( 'category_name=Cuentos&showposts=8' ); ?>
+	<div class="l-carousel__wrapper">
 		<span class="genericon genericon-previous l-carousel-previous"></span>
-		<?php while ( have_posts() ) : the_post(); ?>
-			<div class="item l-carousel__image" style="background-image:url(<?php the_post_thumbnail_url(); ?>)">
-				<a class="l-carousel__hover" href="<?php the_permalink(); ?>" title="<?php the_title_attribute(); ?>">
-					<h1 class="l-carousel__title"><?php the_title_attribute(); ?></h1>
-					<h4 class="l-carousel__subtitle"><?php the_time('d-m-Y') ?> por: <?php the_author() ?> </h4>
-				</a>
-			</div>
-		<?php endwhile; ?>
+		<div id="owl-lavitos" class="owl-carousel l-carousel">
+			<?php while ( have_posts() ) : the_post(); ?>
+				<div class="item l-carousel__image" style="background-image:url(<?php the_post_thumbnail_url(); ?>)">
+					<a class="l-carousel__hover" href="<?php the_permalink(); ?>" title="<?php the_title_attribute(); ?>">
+						<h1 class="l-carousel__title"><?php the_title_attribute(); ?></h1>
+						<h4 class="l-carousel__subtitle"><?php the_time('d-m-Y') ?> por: <?php the_author() ?> </h4>
+					</a>
+				</div>
+			<?php endwhile; ?>
+		</div>
 		<span class="genericon genericon-next l-carousel-next"></span>
 	</div>
-
 	<?php endif; ?>
 
 <div id="page" class="hfeed site">

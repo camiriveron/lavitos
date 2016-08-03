@@ -2146,6 +2146,12 @@ video {
 	}
 }
 
+/* CAROUSEL */
+
+.l-carousel__wrapper {
+	position: relative;
+}
+
 .l-carousel.owl-carousel {
 	position: relative;
 }
