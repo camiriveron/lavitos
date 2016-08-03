@@ -43,21 +43,5 @@
 		</nav><!-- #site-navigation -->
 	</header><!-- #masthead -->
 
-	<?php if ( have_posts() ) : ?>
-		<div id="owl-demo" class="owl-carousel l-carousel">
-		<?php
-			$args = array( 'numberposts' => '5',
-			 'orderby' => 'post_date',
-    		 'order' => 'DESC', );
-			$recent_posts = wp_get_recent_posts( $args );
-			foreach( $recent_posts as $recent ){
-				echo '<div class="item">'. get_the_post_thumbnail( $recent["ID"], 'sela-carousel-thumbnail' ) .'</div> ';
-				// '<a href="' . get_permalink($recent["ID"]) . '">' .   $recent["post_title"].'</a>
-				//get_the_post_thumbnail_url( $recent["ID"] )
-			}
-		?>
-		</div>
-
-	<?php endif; ?>
 <div id="page" class="hfeed site">
 	<div id="content" class="site-content">
