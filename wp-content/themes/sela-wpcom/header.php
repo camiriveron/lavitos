@@ -41,8 +41,5 @@
 			<button class="menu-toggle" aria-controls="menu" aria-expanded="false"><?php _e( 'Menu', 'sela' ); ?></button>
 			<?php wp_nav_menu( array( 'theme_location' => 'primary' ) ); ?>
 		</nav><!-- #site-navigation -->
-	</header><!-- #masthead -->
+</header><!-- #masthead -->
 
-
-<div id="page" class="hfeed site">
-	<div id="content" class="site-content">

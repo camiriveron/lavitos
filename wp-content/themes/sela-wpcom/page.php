@@ -7,6 +7,10 @@
 
 get_header(); ?>
 
+
+<div id="page" class="hfeed site">
+	<div id="content" class="site-content">
+
 		<?php while ( have_posts() ) : the_post(); ?>
 
 			<?php get_template_part( 'content', 'hero' ); ?>

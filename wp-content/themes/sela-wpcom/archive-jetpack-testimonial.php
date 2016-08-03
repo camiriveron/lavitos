@@ -7,6 +7,10 @@
 
 get_header(); ?>
 
+
+<div id="page" class="hfeed site">
+	<div id="content" class="site-content">
+
 	<?php $jetpack_options = get_theme_mod( 'jetpack_testimonials' ); ?>
 
 	<?php if ( isset( $jetpack_options['featured-image'] ) && '' != $jetpack_options['featured-image'] ) : ?>
