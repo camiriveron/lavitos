@@ -2146,7 +2146,7 @@ video {
 	}
 }
 
-.l-carousel .owl-carousel .owl-item {
+.l-carousel.owl-carousel .owl-item {
 	height: 400px !important;
 }
 
