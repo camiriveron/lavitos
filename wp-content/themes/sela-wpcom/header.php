@@ -52,7 +52,7 @@
 			<div class="item l-carousel__image" style="background-image:url(<?php the_post_thumbnail_url(); ?>)">
 				<a class="l-carousel__hover" href="<?php the_permalink(); ?>" title="<?php the_title_attribute(); ?>">
 					<h1 class="l-carousel__title"><?php the_title_attribute(); ?></h1>
-					<h4 class="l-carousel__subtitle widget-title"><?php the_time('d-m-Y') ?> por: <?php the_author() ?> </h4>
+					<h4 class="l-carousel__subtitle"><?php the_time('d-m-Y') ?> por: <?php the_author() ?> </h4>
 				</a>
 			</div>
 
