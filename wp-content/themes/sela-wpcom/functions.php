@@ -58,7 +58,7 @@ function sela_setup() {
 	// Full width and grid page template
 	add_image_size( 'sela-page-thumbnail', 1180, 435, array( 'center', 'top' ) );
 	// Full width and grid page template
-	add_image_size( 'sela-post-thumbnail', 820, 312, array( 'center', 'center' ) );
+	add_image_size( 'sela-post-thumbnail', 820, 312, array( 'center', 'top' ) );
 	// Grid child page thumbnail
 	add_image_size( 'sela-grid-thumbnail', 360, 242, array( 'center', 'center' ) );
 	// Testimonial thumbnail
