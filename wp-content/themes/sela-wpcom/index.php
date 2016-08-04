@@ -13,7 +13,7 @@ get_header(); ?>
 			<span class="genericon genericon-previous l-carousel-previous"></span>
 			<div id="owl-lavitos" class="owl-carousel l-carousel">
 				<?php while ( have_posts() ) : the_post(); ?>
-					<div class="item l-carousel__image" style="background-image:url(<?php the_post_thumbnail_url(); ?>)">
+					<div class="item l-carousel__image" style="background-image:url(<?php the_post_thumbnail_url('sela-carousel-thumbnail'); ?>)">
 						<a class="l-carousel__hover" href="<?php the_permalink(); ?>">
 							<h4 class="l-carousel__subtitle"><?php the_time('d-m-Y') ?> por: <?php the_author() ?> </h4>
 							<h1 class="l-carousel__title"><?php the_title_attribute(); ?></h1>
