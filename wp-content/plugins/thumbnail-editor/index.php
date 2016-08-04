@@ -1,3 +1,0 @@
-<?php
-/* notging is here */
-?>
