@@ -1315,7 +1315,7 @@ blockquote cite {
 	margin-left: 70px;
 }
 .comment-form label {
-	display: inline-block;
+	/*display: inline-block;*/
 	width: 64px;
 }
 .form-allowed-tags {
