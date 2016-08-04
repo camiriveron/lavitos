@@ -52,17 +52,17 @@ function sela_setup() {
 	add_theme_support( 'post-thumbnails' );
 
 	// Post thumbnails
-	set_post_thumbnail_size( 820, 312, array( 'center', 'top' ) );
+	set_post_thumbnail_size( 820, 312, true );
 	// Hero Image on the front page template
 	add_image_size( 'sela-hero-thumbnail', 1180, 610, array( 'center', 'center' ) );
 	// Full width and grid page template
 	add_image_size( 'sela-page-thumbnail', 1180, 435, array( 'center', 'top' ) );
 	// Full width and grid page template
-	add_image_size( 'sela-post-thumbnail', 820, 312, array( 'center', 'top' ) );
+	add_image_size( 'sela-post-thumbnail', 820, 312, true );
 	// Grid child page thumbnail
 	add_image_size( 'sela-grid-thumbnail', 360, 242, array( 'center', 'center' ) );
 	// Carousel thumbnail
-	add_image_size( 'sela-carousel-thumbnail', 450, 450 );
+	add_image_size( 'sela-carousel-thumbnail', 450, 450, true);
 	// Testimonial thumbnail
 	add_image_size( 'sela-testimonial-thumbnail', 90, 90, array( 'center', 'center' ) );
 
