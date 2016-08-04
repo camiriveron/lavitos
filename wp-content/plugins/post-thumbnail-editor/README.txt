@@ -3,7 +3,7 @@ Contributors: sewpafly
 Donate link: http://sewpafly.github.io/post-thumbnail-editor/#toc_donations
 Tags: post-thumbnail, post thumbnail, featured image, featured, editor, image, awesome, crop
 Requires at least: 4.1
-Tested up to: 4.5
+Tested up to: 4.2.x
 Stable tag: trunk
 License: GPLv2
 
@@ -75,12 +75,8 @@ If you want to post a problem on the [support forums][wp] or at [github][gh] ple
 
 == Changelog ==
 
-= 2.4.7 =
-* Updated brazilian translation
-* Fix for wordpress 4.5 - @nate-allen
-
 = 2.4.6 =
-* Updated polish translation
+* Fixed bug with post's media library
 * Check if featuredImage exists before override to avoid JS error (@gbonhevi)
 
 = 2.4.5 =
@@ -200,5 +196,6 @@ If you want to post a problem on the [support forums][wp] or at [github][gh] ple
 
 == Upgrade Notice ==
 
-= 2.4.7 =
-Some bug fixes - thanks @nate-allen
+= 2.4.6 =
+* Updated polish translation
+* Fixed post media library bug
