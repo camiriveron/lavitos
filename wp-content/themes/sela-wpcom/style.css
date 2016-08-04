@@ -2231,6 +2231,7 @@ video {
 	padding-left: 3rem;
 	direction: rtl;
 	transition: all .2s linear;
+	text-shadow: 0 0 3px rgba(0,0,0,0.9);
 }
 
 .l-carousel__title:hover {
