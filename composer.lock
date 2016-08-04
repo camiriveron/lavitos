@@ -15,7 +15,8 @@
     "prefer-lowest": false,
     "platform": {
         "ext-mbstring": "*",
-        "php": "^7.0"
+        "php": "^7.0",
+        "ext-gd": "*"
     },
     "platform-dev": []
 }
