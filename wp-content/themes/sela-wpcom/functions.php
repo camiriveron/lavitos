@@ -319,12 +319,11 @@ function aboutme_func() {
 		$about_me .= '<div class="aboutme-widget__descripcion">';
 			$about_me .= '<p>'.$user_info->description.'</p>';
 		$about_me .= '</div>';
+		if ( has_nav_menu ( 'social' ) ){
+			$about_me .= wp_nav_menu( array( 'theme_location' => 'social', 'depth' => 1, 'link_before' => '<span class="screen-reader-text">', 'link_after' => '</span>', 'container_class' => 'social-links', ) );
+		}
 	$about_me .= '</div>';
-
-	if ( has_nav_menu ( 'social' ) ){
-		$about_me .= wp_nav_menu( array( 'theme_location' => 'social', 'depth' => 1, 'link_before' => '<span class="screen-reader-text">', 'link_after' => '</span>', 'container_class' => 'social-links', ) );
-	}
-
+	
 	return $about_me;
 }
 add_shortcode( 'about_me', 'aboutme_func' );
