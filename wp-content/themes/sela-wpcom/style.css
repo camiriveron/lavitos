@@ -924,7 +924,7 @@ textarea {
 }
 .front-widget-area .widget ul > li,
 .front-widget-area .widget ol > li,
-.sidebar-widget-area .widget ul > li,
+/*.sidebar-widget-area .widget ul > li,*/
 .sidebar-widget-area .widget ol > li {
 	border-top: 1px solid #f2f2f2;
 }
