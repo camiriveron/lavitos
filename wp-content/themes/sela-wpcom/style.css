@@ -576,7 +576,7 @@ textarea {
 	display: inline-block;
 	list-style: none;
 	margin: 0;
-	margin-right: 0.2em;
+	margin-right: 0.3em;
 }
 .social-links ul a {
 	display: inline-block;
@@ -614,7 +614,7 @@ textarea {
 }
 
 .social-links__header-post ul a:hover:before {
-	opacity: 0.9;
+	opacity: 1;
 }
 .social-links ul a:hover:before {
 	opacity: 0.75;
