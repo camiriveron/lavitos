@@ -16,11 +16,11 @@ get_header(); ?>
 
 			<section class="error-404 not-found">
 				<header class="page-header">
-					<h1 class="page-title"><?php _e( 'Oops! That page can&rsquo;t be found.', 'sela' ); ?></h1>
+					<h1 class="page-title"><?php _e( 'Oops! No podemos encontrar la página.', 'sela' ); ?></h1>
 				</header><!-- .page-header -->
 
 				<div class="page-content">
-					<p><?php _e( 'It looks like nothing was found at this location. Maybe try one of the links below or a search?', 'sela' ); ?></p>
+					<p><?php _e('Parece que no hay nada en esta ubicación. Si intentas con uno de los enlaces aquí debajo?', 'sela' ); ?></p>
 
 					<?php get_search_form(); ?>
 
