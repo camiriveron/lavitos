@@ -40,7 +40,8 @@ get_header(); ?>
 		      $username = $user_info->user_login;
 		      $first_name = $user_info->first_name;
 		      $last_name = $user_info->last_name;
-		      $avatar_url = get_avatar_url( $user_info->ID, 'thumbnail-size' );
+		      $size=350;
+		      $avatar_url = get_avatar_url( $user_info->ID, $size );
 
 
 
