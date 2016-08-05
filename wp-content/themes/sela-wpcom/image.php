@@ -21,8 +21,8 @@ get_header(); ?>
 					<?php the_title( '<h1 class="entry-title">', '</h1>' ); ?>
 
 					<nav role="navigation" id="image-navigation" class="image-navigation">
-						<div class="nav-previous"><?php previous_image_link( false, __( '<span class="meta-nav"></span> Previous', 'sela' ) ); ?></div>
-						<div class="nav-next"><?php next_image_link( false, __( 'Next <span class="meta-nav"></span>', 'sela' ) ); ?></div>
+						<div class="nav-previous"><?php previous_image_link( false, __( '<span class="meta-nav"></span> Anterior', 'sela' ) ); ?></div>
+						<div class="nav-next"><?php next_image_link( false, __( 'Siguiente <span class="meta-nav"></span>', 'sela' ) ); ?></div>
 					</nav><!-- #image-navigation -->
 				</header><!-- .entry-header -->
 
@@ -31,7 +31,7 @@ get_header(); ?>
 					<div class="entry-meta">
 						<?php
 							$metadata = wp_get_attachment_metadata();
-							printf( __( 'Published <span class="entry-date"><time class="entry-date" datetime="%1$s">%2$s</time></span> at <a href="%3$s" title="Link to full-size image">%4$s &times; %5$s</a> in <a href="%6$s" title="Return to %7$s" rel="gallery">%8$s</a>', 'sela' ),
+							printf( __( 'Publicado <span class="entry-date"><time class="entry-date" datetime="%1$s">%2$s</time></span> a las <a href="%3$s" title="Link to full-size image">%4$s &times; %5$s</a> en <a href="%6$s" title="Volver a %7$s" rel="gallery">%8$s</a>', 'sela' ),
 								esc_attr( get_the_date( 'c' ) ),
 								esc_html( get_the_date() ),
 								esc_url( wp_get_attachment_url() ),
