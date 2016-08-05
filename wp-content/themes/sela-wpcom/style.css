@@ -2265,12 +2265,8 @@ video {
     display: inline-block;
 	font-family: Genericons;
 	font-weight: normal;
-	vertical-align: text-bottom;
 	-webkit-font-smoothing: antialiased;
     text-decoration: none;
-    -webkit-border-radius: 50%;
-    -moz-border-radius: 50%;
-    border-radius: 50%;
 }
 
 .crunchify-link:before {
