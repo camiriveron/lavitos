@@ -2250,12 +2250,6 @@ video {
 }
 
 /*Social share on posts */
-/* Disable WhatsApp button on Desktop - Tutorial link: http://crunchify.me/1VIxAsz */
-@media screen and (min-width: 1024px) {
-    .crunchify-whatsapp {
-	display: none !important;
-    }
-}
  
 .crunchify-link {
     color: white;
@@ -2320,6 +2314,9 @@ video {
 .crunchify-social {
     margin: 20px 0px 25px 0px;
     -webkit-font-smoothing: antialiased;
+    padding: 0 0 0 146px;
+    border-bottom: 1px solid #f2f2f2;
+    border-top: 1px solid #f2f2f2;
 }
 
 

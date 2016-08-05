@@ -47,8 +47,8 @@
 		<?php endif; ?>
 	</div><!-- .entry-body -->
 
+</article><!-- #post-## -->
+
 	<?php if ( is_single() ) : ?>
 		<?php do_action('after_body'); ?>
 	<?php endif; ?>
-
-</article><!-- #post-## -->
