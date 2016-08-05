@@ -2313,7 +2313,7 @@ video {
 .crunchify-social {
     margin: 20px 0px 25px 0px;
     -webkit-font-smoothing: antialiased;
-    padding: 0 0 0 146px;
+    /*padding: 0 0 0 146px;*/
     /*border-bottom: 1px solid #f2f2f2;*/
 }
 
