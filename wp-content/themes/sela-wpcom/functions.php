@@ -315,7 +315,6 @@ function aboutme_func() {
 	$about_me = '';
 	$about_me .= '<div class="aboutme-widget">';
 		$about_me .= '<img class="aboutme-widget__image" src="'.$avatar_url.'">';
-		$about_me .= '<img/>';
 		$about_me .= '<div class="aboutme-widget__name">';
 			$about_me .= '<h4>'.$user_info->first_name.' '.$user_info->last_name.'</h4>';
 		$about_me .= '<div/>';
@@ -343,7 +342,6 @@ function aboutme_post_func() {
 	$about_me = '';
 	$about_me .= '<div class="aboutme-widget-post">';
 		$about_me .= '<img class="aboutme-widget-post__image" src="'.$avatar_url.'">';
-		$about_me .= '<img/>';
 		$about_me .= '<div class="aboutme-widget-post__datos">';
 			$about_me .= '<div class="aboutme-widget-post__name">';
 				$about_me .= '<h4>'.$user_info->first_name.' '.$user_info->last_name.'</h4>';
@@ -354,8 +352,8 @@ function aboutme_post_func() {
 			if ( has_nav_menu ( 'social' ) ){
 				$about_me .= wp_nav_menu( array( 'echo' => false, 'theme_location' => 'social', 'depth' => 1, 'link_before' => '<span class="screen-reader-text">', 'link_after' => '</span>', 'container_class' => 'social-links', ) );
 			}
-		$about_me .= '</div">';
-	$about_me .= '</div>';
+		$about_me .= '</div">'; /* div aboutme-widget-post__datos */
+	$about_me .= '</div>'; /* div aboutme-widget-post */
 
 	return $about_me;
 }

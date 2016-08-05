@@ -2295,7 +2295,7 @@ video {
     text-align: center;
 }
 
-.aboutme-widget__image {
+.aboutme-widget__image, .aboutme-widget-post__image {
     width: 200px;
     height: 200px;
     border-radius: 50%;
