@@ -43,9 +43,19 @@ get_header(); ?>
 		      $size=350;
 		      $avatar_url = get_avatar_url( $user_info->ID, array( 'size' => 350) );
 
+		      $about_me = '';
+		      $about_me .= '<div class="aboutme-widget">';
+		      	$about_me .= '<img class="aboutme-widget__image" url="'.$avatar_url .'">';
+		      	$about_me .= '<img/>';
+		      	$about_me .= '<div class="aboutme-widget__name">';
+		      		$about_me .= '<h4>'.$user_info->first_name.' '.$user_info->last_name;.'</h4>';
+		      	$about_me .= '<div/>';
+		      	$about_me .= '<div class="aboutme-widget__descripcion">';
+		      		$about_me .= '<p>'.$user_info->description.'</p>';
+		      	$about_me .= '</div>';
+		      $about_me .= '</div>';
 
-
-		      echo "$first_name $last_name se logueo con el usuario $username. </br> $avatar_url";
+		      echo $about_me;
 
 
 		?>
