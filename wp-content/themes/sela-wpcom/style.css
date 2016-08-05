@@ -2272,16 +2272,16 @@ video {
 
 /*quoty*/
 
-.quoty  .quoty-inner{
-	background-color: #e950ac;
+.quoty-inner{
+	background-color: #e950ac !important;
 }
 
-.quoty  .quoty-inner button {
-	box-shadow: none;
+.quoty-inner button {
+	box-shadow: none !important;
 }
 
-.quoty .quoty-arrowClip .quoty-arrow {
-	background-color: #e950ac;
+.quoty-arrowClip .quoty-arrow {
+	background-color: #e950ac !important;
 }
 
 
