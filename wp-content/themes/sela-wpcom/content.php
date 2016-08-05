@@ -40,6 +40,9 @@
 
 			<?php if ( is_single() && 'post' == get_post_type() ) : ?>
 				<?php do_action('after_content'); ?>
+
+				[about_me_post]
+				
 			<?php endif; ?>
 
 		</div><!-- .entry-content -->

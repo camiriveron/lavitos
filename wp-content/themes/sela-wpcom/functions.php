@@ -329,6 +329,36 @@ function aboutme_func() {
 add_shortcode( 'about_me', 'aboutme_func' );
 
 /**
+ *About me post shortcode
+ */
+function aboutme_post_func() {
+    $user_info = get_userdata(1);
+	$first_name = $user_info->first_name;
+	$last_name = $user_info->last_name;
+	$avatar_url = get_avatar_url( $user_info->ID, array( 'size' => 200) );
+
+	$about_me = '';
+	$about_me .= '<div class="aboutme-widget-post">';
+		$about_me .= '<img class="aboutme-widget-post__image" src="'.$avatar_url.'">';
+		$about_me .= '<img/>';
+		$about_me .= '<div class="aboutme-widget-post__datos">';
+			$about_me .= '<div class="aboutme-widget-post__name">';
+				$about_me .= '<h4>'.$user_info->first_name.' '.$user_info->last_name.'</h4>';
+			$about_me .= '<div/>';
+			$about_me .= '<div class="aboutme-widget-post__descripcion">';
+				$about_me .= '<span>'.$user_info->description.'</span>';
+			$about_me .= '</div>';
+			if ( has_nav_menu ( 'social' ) ){
+				$about_me .= wp_nav_menu( array( 'echo' => false, 'theme_location' => 'social', 'depth' => 1, 'link_before' => '<span class="screen-reader-text">', 'link_after' => '</span>', 'container_class' => 'social-links', ) );
+			}
+		$about_me .= '</div">';
+	$about_me .= '</div>';
+
+	return $about_me;
+}
+add_shortcode( 'about_me_post', 'aboutme_post_func' );
+
+/**
  * Remove Gallery Inline Styling
  */
 add_filter( 'use_default_gallery_style', '__return_false' );

@@ -2302,12 +2302,27 @@ video {
     margin-bottom: 1em;
 }
 
-.aboutme-widget__descripcion {
+.aboutme-widget-post {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.aboutme-widget-post__datos {
+	display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: center;
+}
+
+.aboutme-widget__descripcion, .aboutme-widget-post__descripcion {
     font-style: italic;
     margin-bottom: 1em;
 }
 
-.aboutme-widget .social-links {
+.aboutme-widget .social-links, .aboutme-widget-post .social-links {
 	margin-bottom: 0;
 }
 
