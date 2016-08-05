@@ -20,7 +20,7 @@ get_header(); ?>
 				</header><!-- .page-header -->
 
 				<div class="page-content">
-					<p><?php _e('Parece que no hay nada en esta ubicación. Si intentas con uno de los enlaces aquí debajo?', 'sela' ); ?></p>
+					<p><?php _e('Parece que no hay nada en esta ubicación. Y si intentas buscando en el sitio aquí debajo?', 'sela' ); ?></p>
 
 					<?php get_search_form(); ?>
 
