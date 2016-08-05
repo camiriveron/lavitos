@@ -258,19 +258,19 @@ function crunchify_social_sharing_buttons($content) {
 		// Based on popular demand added Pinterest too
 		$pinterestURL = 'https://pinterest.com/pin/create/button/?url='.$crunchifyURL.'&amp;media='.$crunchifyThumbnail[0].'&amp;description='.$crunchifyTitle;
  
-		$content .= '<div class="social-links social-links--header">'
-			$content .= '<ul id="menu-social" class="menu">'
-				$content .= '<li class="menu-item menu-item-type-custom menu-item-object-custom">'
-					$content .= '<a href="'.$googleURL.'"><span class="screen-reader-text">@lavitos</span></a>'
-				$content .= '</li>'
-				$content .= '<li class="menu-item menu-item-type-custom menu-item-object-custom">'
-					$content .= '<a href="'.$facebookURL.'"><span class="screen-reader-text">Facebook</span></a>'
-				$content .= '</li>'
-				$content .= '<li class="menu-item menu-item-type-custom menu-item-object-custom">'
-					$content .= '<a href="'. $twitterURL .'"><span class="screen-reader-text">Twitter</span></a>'
-				$content .= '</li>'
-			$content .= '</ul>'
-		$content .= '</div>'
+		$content .= '<div class="social-links social-links--header">';
+			$content .= '<ul id="menu-social" class="menu">';
+				$content .= '<li class="menu-item menu-item-type-custom menu-item-object-custom">';
+					$content .= '<a href="'.$googleURL.'"><span class="screen-reader-text">@lavitos</span></a>';
+				$content .= '</li>';
+				$content .= '<li class="menu-item menu-item-type-custom menu-item-object-custom">';
+					$content .= '<a href="'.$facebookURL.'"><span class="screen-reader-text">Facebook</span></a>';
+				$content .= '</li>';
+				$content .= '<li class="menu-item menu-item-type-custom menu-item-object-custom">';
+					$content .= '<a href="'. $twitterURL .'"><span class="screen-reader-text">Twitter</span></a>';
+				$content .= '</li>';
+			$content .= '</ul>';
+		$content .= '</div>';
 
 		// Add sharing button at the end of page/page content
 		$content .= '<!-- Crunchify.com social sharing. Get your copy here: http://crunchify.me/1VIxAsz -->';
