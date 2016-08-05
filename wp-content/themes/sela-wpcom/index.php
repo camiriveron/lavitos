@@ -55,9 +55,7 @@ get_header(); ?>
 		      	$about_me .= '</div>';
 		      $about_me .= '</div>';
 
-		      echo $about_me;
-
-
+		      echo 'hola';
 		?>
 
 		<?php else : ?>
