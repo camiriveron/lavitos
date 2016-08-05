@@ -317,7 +317,7 @@ function aboutme_func() {
 		$about_me .= '<img class="aboutme-widget__image" src="'.$avatar_url.'">';
 		$about_me .= '<div class="aboutme-widget__name">';
 			$about_me .= '<h4>'.$user_info->first_name.' '.$user_info->last_name.'</h4>';
-		$about_me .= '<div/>';
+		$about_me .= '</div>';
 		$about_me .= '<div class="aboutme-widget__descripcion">';
 			$about_me .= '<span>'.$user_info->description.'</span>';
 		$about_me .= '</div>';
@@ -345,7 +345,7 @@ function aboutme_post_func() {
 		$about_me .= '<div class="aboutme-widget-post__datos">';
 			$about_me .= '<div class="aboutme-widget-post__name">';
 				$about_me .= '<h4>'.$user_info->first_name.' '.$user_info->last_name.'</h4>';
-			$about_me .= '<div/>';
+			$about_me .= '</div>';
 			$about_me .= '<div class="aboutme-widget-post__descripcion">';
 				$about_me .= '<span>'.$user_info->description.'</span>';
 			$about_me .= '</div>';
