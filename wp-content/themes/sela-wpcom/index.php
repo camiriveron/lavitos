@@ -37,25 +37,23 @@ get_header(); ?>
 		<?php if ( have_posts() ) : ?>
 
 		<?php $user_info = get_userdata(1);
-		      $username = $user_info->user_login;
 		      $first_name = $user_info->first_name;
 		      $last_name = $user_info->last_name;
-		      $size=350;
 		      $avatar_url = get_avatar_url( $user_info->ID, array( 'size' => 350) );
 
 		      $about_me = '';
 		      $about_me .= '<div class="aboutme-widget">';
-		      	$about_me .= '<img class="aboutme-widget__image" url="'.$avatar_url .'">';
+		      	$about_me .= '<img class="aboutme-widget__image" url="'.$avatar_url.'">';
 		      	$about_me .= '<img/>';
 		      	$about_me .= '<div class="aboutme-widget__name">';
-		      		$about_me .= '<h4>'.$user_info->first_name.' '.$user_info->last_name;.'</h4>';
+		      		$about_me .= '<h4>'.$user_info->first_name.' '.$user_info->last_name.'</h4>';
 		      	$about_me .= '<div/>';
 		      	$about_me .= '<div class="aboutme-widget__descripcion">';
 		      		$about_me .= '<p>'.$user_info->description.'</p>';
 		      	$about_me .= '</div>';
 		      $about_me .= '</div>';
 
-		      echo 'hola';
+		      echo $about_me;
 		?>
 
 		<?php else : ?>
