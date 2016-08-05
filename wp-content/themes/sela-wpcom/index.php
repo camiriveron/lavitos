@@ -41,7 +41,7 @@ get_header(); ?>
 		      $first_name = $user_info->first_name;
 		      $last_name = $user_info->last_name;
 		      $size=350;
-		      $avatar_url = get_avatar_url( $user_info->ID, $size );
+		      $avatar_url = get_avatar_url( $user_info->ID, array( 'size' => 350) );
 
 
 
