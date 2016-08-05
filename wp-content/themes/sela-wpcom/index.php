@@ -41,11 +41,11 @@ get_header(); ?>
 		      $first_name = $user_info->first_name;
 		      $last_name = $user_info->last_name;
 		      $size=350;
-		      $avatar_url = get_avatar_url( $user_info->ID );
+		      $avatar_url = get_avatar_url( $user_info->ID, $size );
 
 
 
-		      echo "$first_name $last_name se logueo con el usuario $username.";
+		      echo "$first_name $last_name se logueo con el usuario $username. </br> $avatar_url";
 
 
 		?>
