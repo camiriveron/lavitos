@@ -287,12 +287,14 @@ function crunchify_social_sharing_buttons($content) {
 		$content .= '</div>';
 		$content .= '</div>';
 
-		//Links on post header
-		$content .= '<div class="social-links social-links__header social-links__header--post">';
-			$content .= '<ul id="menu-social" class="menu">';
-				$content .= $contentMenu;
-			$content .= '</ul>';
-		$content .= '</div>';
+		if ( has_post_thumbnail() ){
+			//Links on post header
+			$content .= '<div class="social-links social-links__header social-links__header--post">';
+				$content .= '<ul id="menu-social" class="menu">';
+					$content .= $contentMenu;
+				$content .= '</ul>';
+			$content .= '</div>';
+		}
 		
 		return $content;
 	}else{
