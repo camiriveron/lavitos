@@ -291,7 +291,10 @@ function crunchify_social_sharing_buttons() {
 				$content .= '</ul>';
 			$content .= '</div>';
 		}
-		
+
+		//about me post
+		$content .= aboutme_post_func();
+
 		echo $content;
 	}else{
 		// if not a post/page then don't include sharing button
@@ -356,7 +359,6 @@ function aboutme_post_func() {
 
 	return $about_me;
 }
-add_shortcode( 'about_me_post', 'aboutme_post_func' );
 
 /**
  * Remove Gallery Inline Styling

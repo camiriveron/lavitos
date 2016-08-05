@@ -39,14 +39,7 @@
 			?>
 
 			<?php if ( is_single() && 'post' == get_post_type() ) : ?>
-				<?php 
-
-					do_action('after_content'); 
-
-					echo aboutme_post_func();
-				?>
-
-
+				<?php do_action('after_content');  ?>
 			<?php endif; ?>
 
 		</div><!-- .entry-content -->
