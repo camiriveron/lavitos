@@ -2272,16 +2272,17 @@ video {
 
 /*quoty overrides*/
 .quoty .quoty-inner{
-	background-color: #e950ac !important;
+	background-color: #e950ac;
 	background-image: none;
+	padding-bottom: 2px;
 }
 
 .quoty .quoty-inner button {
-	box-shadow: none !important;
+	box-shadow: none;
 }
 
 .quoty-arrowClip .quoty-arrow {
-	background-color: #e950ac !important;
+	background-color: #e950ac;
 }
 
 
