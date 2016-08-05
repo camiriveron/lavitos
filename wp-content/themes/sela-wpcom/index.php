@@ -43,7 +43,7 @@ get_header(); ?>
 
 		      $about_me = '';
 		      $about_me .= '<div class="aboutme-widget">';
-		      	$about_me .= '<img class="aboutme-widget__image" url="'.$avatar_url.'">';
+		      	$about_me .= '<img class="aboutme-widget__image" src="'.$avatar_url.'">';
 		      	$about_me .= '<img/>';
 		      	$about_me .= '<div class="aboutme-widget__name">';
 		      		$about_me .= '<h4>'.$user_info->first_name.' '.$user_info->last_name.'</h4>';
