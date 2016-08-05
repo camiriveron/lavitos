@@ -36,26 +36,6 @@ get_header(); ?>
 
 		<?php if ( have_posts() ) : ?>
 
-		<?php $user_info = get_userdata(1);
-		      $first_name = $user_info->first_name;
-		      $last_name = $user_info->last_name;
-		      $avatar_url = get_avatar_url( $user_info->ID, array( 'size' => 250) );
-
-		      $about_me = '';
-		      $about_me .= '<div class="aboutme-widget">';
-		      	$about_me .= '<img class="aboutme-widget__image" src="'.$avatar_url.'">';
-		      	$about_me .= '<img/>';
-		      	$about_me .= '<div class="aboutme-widget__name">';
-		      		$about_me .= '<h4>'.$user_info->first_name.' '.$user_info->last_name.'</h4>';
-		      	$about_me .= '<div/>';
-		      	$about_me .= '<div class="aboutme-widget__descripcion">';
-		      		$about_me .= '<p>'.$user_info->description.'</p>';
-		      	$about_me .= '</div>';
-		      $about_me .= '</div>';
-
-		      echo $about_me;
-		?>
-
 		<?php else : ?>
 
 			<?php get_template_part( 'content', 'none' ); ?>
