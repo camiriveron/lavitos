@@ -289,7 +289,7 @@ function crunchify_social_sharing_buttons($content) {
 
 		if ( has_post_thumbnail() ){
 			//Links on post header
-			$content .= '<div class="social-links social-links__header social-links__header--post">';
+			$content .= '<div class="social-links social-links__header social-links__header-post">';
 				$content .= '<ul id="menu-social" class="menu">';
 					$content .= $contentMenu;
 				$content .= '</ul>';
