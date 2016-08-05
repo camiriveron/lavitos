@@ -39,7 +39,7 @@ get_header(); ?>
 		<?php $user_info = get_userdata(1);
 		      $first_name = $user_info->first_name;
 		      $last_name = $user_info->last_name;
-		      $avatar_url = get_avatar_url( $user_info->ID, array( 'size' => 350) );
+		      $avatar_url = get_avatar_url( $user_info->ID, array( 'size' => 250) );
 
 		      $about_me = '';
 		      $about_me .= '<div class="aboutme-widget">';
