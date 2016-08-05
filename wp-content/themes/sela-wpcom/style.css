@@ -2270,13 +2270,13 @@ video {
     -webkit-font-smoothing: antialiased;
 }
 
-/*quoty*/
-
-.quoty-inner{
+/*quoty overrides*/
+.quoty .quoty-inner{
 	background-color: #e950ac !important;
+	background-image: none;
 }
 
-.quoty-inner button {
+.quoty .quoty-inner button {
 	box-shadow: none !important;
 }
 
