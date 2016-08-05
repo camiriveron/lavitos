@@ -36,7 +36,12 @@ get_header(); ?>
 
 		<?php if ( have_posts() ) : ?>
 
-			
+		<?php $user_info = get_userdata(1);
+		      $username = $user_info->user_login;
+		      $first_name = $user_info->first_name;
+		      $last_name = $user_info->last_name;
+		      echo "$first_name $last_name se logueo con el usuario $username.";
+		?>
 
 		<?php else : ?>
 
