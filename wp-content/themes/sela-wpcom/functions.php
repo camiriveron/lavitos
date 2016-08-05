@@ -301,6 +301,31 @@ function crunchify_social_sharing_buttons() {
 add_action( 'after_content', 'crunchify_social_sharing_buttons');
 
 /**
+ *About me shortcode
+ */
+function aboutme_func() {
+    $user_info = get_userdata(1);
+	$first_name = $user_info->first_name;
+	$last_name = $user_info->last_name;
+	$avatar_url = get_avatar_url( $user_info->ID, array( 'size' => 250) );
+
+	$about_me = '';
+	$about_me .= '<div class="aboutme-widget">';
+		$about_me .= '<img class="aboutme-widget__image" src="'.$avatar_url.'">';
+		$about_me .= '<img/>';
+		$about_me .= '<div class="aboutme-widget__name">';
+			$about_me .= '<h4>'.$user_info->first_name.' '.$user_info->last_name.'</h4>';
+		$about_me .= '<div/>';
+		$about_me .= '<div class="aboutme-widget__descripcion">';
+			$about_me .= '<p>'.$user_info->description.'</p>';
+		$about_me .= '</div>';
+	$about_me .= '</div>';
+
+	return $about_me;
+}
+add_shortcode( 'about_me', 'aboutme_func' );
+
+/**
  * Remove Gallery Inline Styling
  */
 add_filter( 'use_default_gallery_style', '__return_false' );
