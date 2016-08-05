@@ -41,6 +41,8 @@ get_header(); ?>
 		      $first_name = $user_info->first_name;
 		      $last_name = $user_info->last_name;
 		      echo "$first_name $last_name se logueo con el usuario $username.";
+
+		      echo get_avatar_url( $user_info->ID );
 		?>
 
 		<?php else : ?>
