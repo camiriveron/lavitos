@@ -263,7 +263,6 @@ function crunchify_social_sharing_buttons($content) {
 		// Add sharing button at the end of page/page content
 		$content .= '<!-- Crunchify.com social sharing. Get your copy here: http://crunchify.me/1VIxAsz -->';
 		$content .= '<div class="crunchify-social">';
-		$content .= '<h4>- Comparte esta historia -</h4> <a class="crunchify-link crunchify-twitter" href="'. $twitterURL .'" target="_blank"></a>';
 		$content .= '<div class="social-links">';
 			$content .= '<ul id="menu-social" class="menu">';
 				$content .= '<li class="menu-item menu-item-type-custom menu-item-object-custom">';
