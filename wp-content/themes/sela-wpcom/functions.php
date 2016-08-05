@@ -343,7 +343,7 @@ function aboutme_post_func() {
 	$about_me .= '<div class="aboutme-widget-post">';
 		$about_me .= '<img class="aboutme-widget-post__image" src="'.$avatar_url.'">';
 		$about_me .= '<div class="aboutme-widget-post__datos">';
-			$about_me .= '<h3 class="widget-title">La autora</h3>';
+			$about_me .= '<h3 class="widget-title">Sobre la autora</h3>';
 			$about_me .= '<div class="aboutme-widget-post__name">';
 				$about_me .= '<h4>'.$user_info->first_name.' '.$user_info->last_name.'</h4>';
 			$about_me .= '</div>';
