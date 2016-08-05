@@ -604,8 +604,17 @@ textarea {
 			transition: top 0.3s ease-in-out;
 			transition: all 0.1s ease-in-out;
 }
+
+.social-links__header-post ul a:before {
+	opacity: 0.6;
+}
+
 .social-links ul a:hover {
 	text-decoration: none;
+}
+
+.social-links__header-post ul a:hover:before {
+	opacity: 0.9;
 }
 .social-links ul a:hover:before {
 	opacity: 0.75;
