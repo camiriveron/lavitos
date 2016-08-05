@@ -2293,8 +2293,7 @@ video {
     transition: all 0.1s ease-in-out;
 }
  
-.crunchify-link:hover,.crunchify-link:active {
-    color: white;
+.crunchify-link:before:hover {
     background: #e1122a;
 }
  
