@@ -275,7 +275,7 @@ function crunchify_social_sharing_buttons($content) {
 			$contentMenu .= '<a href="'.$linkedInURL.'" target="_blank"><span class="screen-reader-text">Linkedin</span></a>';
 		$contentMenu .= '</li>';
 
-		$content = '';
+		// $content = '';
 		// Add sharing button at the end of page/page content
 		$content .= '<!-- Crunchify.com social sharing. Get your copy here: http://crunchify.me/1VIxAsz -->';
 		$content .= '<div class="crunchify-social">';
