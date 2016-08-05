@@ -49,6 +49,6 @@
 
 </article><!-- #post-## -->
 
-	<?php if ( is_single() ) : ?>
+	<?php if ( is_single() && 'post' == get_post_type() ) : ?>
 		<?php do_action('after_body'); ?>
 	<?php endif; ?>
