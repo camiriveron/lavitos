@@ -292,16 +292,16 @@ function sela_post_thumbnail() {
 	?>
 
 	<div class="post-thumbnail">
-		<?php get_the_post_thumbnail('sela-post-thumbnail'); ?>
+		<?php get_the_post_thumbnail(); ?>
 
-		<?php the_post_thumbnail('sela-post-thumbnail'); ?>
+		<?php the_post_thumbnail(); ?>
 	</div>
 
 	<?php else : ?>
 
 	<div class="post-thumbnail">
 		<a href="<?php the_permalink(); ?>">
-		 <?php the_post_thumbnail('sela-post-thumbnail'); ?>
+		 <?php the_post_thumbnail(); ?>
 		</a>
 	</div>
 
