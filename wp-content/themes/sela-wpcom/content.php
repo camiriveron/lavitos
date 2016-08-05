@@ -39,17 +39,18 @@
 			?>
 
 			<?php if ( is_single() && 'post' == get_post_type() ) : ?>
+				<footer class="entry-meta">
+					<?php sela_footer_entry_meta(); ?>
+				</footer><!-- .entry-meta -->
+			<?php endif; ?>
+
+			<?php if ( is_single() && 'post' == get_post_type() ) : ?>
 				<?php do_action('after_content');  ?>
 			<?php endif; ?>
 
 		</div><!-- .entry-content -->
 		<?php endif; ?>
 
-		<?php if ( is_single() && 'post' == get_post_type() ) : ?>
-		<footer class="entry-meta">
-			<?php sela_footer_entry_meta(); ?>
-		</footer><!-- .entry-meta -->
-		<?php endif; ?>
 	</div><!-- .entry-body -->
 
 </article><!-- #post-## -->
