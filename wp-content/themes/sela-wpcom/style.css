@@ -2265,70 +2265,8 @@ video {
 }
 
 /*Social share on posts */
- 
-.crunchify-link {
-    color: white;
-    margin-right: 2px;
-    cursor: pointer;
-    margin-top: 2px;
-    display: inline-block;
-	font-family: Genericons;
-	font-weight: normal;
-	-webkit-font-smoothing: antialiased;
-    text-decoration: none;
-}
-
-.crunchify-link:before {
-    background: #e950ac;
-    color: #fff;
-    content: "\f415";
-    display: block;
-    font-size: 16px;
-    font-size: 1.6rem;
-    padding: 8px 6px 8px 8px;
-    position: relative;
-    text-align: center;
-    -webkit-border-radius: 50%;
-    -moz-border-radius: 50%;
-    border-radius: 50%;
-    -webkit-transition: all 0.1s ease-in-out;
-    -moz-transition: all 0.1s ease-in-out;
-    -o-transition: all 0.1s ease-in-out;
-    transition: top 0.3s ease-in-out;
-    transition: all 0.1s ease-in-out;
-}
- 
-.crunchify-link:before:hover {
-    background: #e1122a;
-}
- 
-.crunchify-twitter:before {
-	content: '\f202';
-}
- 
-.crunchify-facebook {
-    content: '\f203';
-}
- 
- 
-.crunchify-googleplus {
-    content: '\f206';
-}
- 
- 
-.crunchify-pinterest {
-    content: '\f210';
-}
- 
- 
-.crunchify-linkedin {
-    content: '\f208';
-}
- 
 .crunchify-social {
     margin: 60px 0px 25px 0px;
     -webkit-font-smoothing: antialiased;
 }
-
-
 

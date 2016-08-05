@@ -254,8 +254,6 @@ function crunchify_social_sharing_buttons($content) {
 		$facebookURL = 'https://www.facebook.com/sharer/sharer.php?u='.$crunchifyURL;
 		$googleURL = 'https://plus.google.com/share?url='.$crunchifyURL;
 		$linkedInURL = 'https://www.linkedin.com/shareArticle?mini=true&url='.$crunchifyURL.'&amp;title='.$crunchifyTitle;
- 
-		// Based on popular demand added Pinterest too
 		$pinterestURL = 'https://pinterest.com/pin/create/button/?url='.$crunchifyURL.'&amp;media='.$crunchifyThumbnail[0].'&amp;description='.$crunchifyTitle;
  
 		$contentMenu = '';
@@ -275,7 +273,6 @@ function crunchify_social_sharing_buttons($content) {
 			$contentMenu .= '<a href="'.$linkedInURL.'" target="_blank"><span class="screen-reader-text">Linkedin</span></a>';
 		$contentMenu .= '</li>';
 
-		// $content = '';
 		// Add sharing button at the end of page/page content
 		$content .= '<!-- Crunchify.com social sharing. Get your copy here: http://crunchify.me/1VIxAsz -->';
 		$content .= '<div class="crunchify-social">';
