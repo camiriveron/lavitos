@@ -576,6 +576,7 @@ textarea {
 	display: inline-block;
 	list-style: none;
 	margin: 0;
+	margin-right: 0.2em;
 }
 .social-links ul a {
 	display: inline-block;
