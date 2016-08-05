@@ -235,7 +235,7 @@ function sela_enqueue_admin_fonts( $hook ) {
 }
 add_action( 'admin_enqueue_scripts', 'sela_enqueue_admin_fonts' );
 
-function crunchify_social_sharing_buttons($content) {
+function crunchify_social_sharing_buttons() {
 	if(is_singular() || is_home()){
 	
 		// Get current page URL 
@@ -254,6 +254,7 @@ function crunchify_social_sharing_buttons($content) {
 		$linkedInURL = 'https://www.linkedin.com/shareArticle?mini=true&url='.$crunchifyURL.'&amp;title='.$crunchifyTitle;
 		$pinterestURL = 'https://pinterest.com/pin/create/button/?url='.$crunchifyURL.'&amp;media='.$crunchifyThumbnail[0].'&amp;description='.$crunchifyTitle;
  
+ 		$content = '';
 		$contentMenu = '';
 		$contentMenu .= '<li class="menu-item menu-item-type-custom menu-item-object-custom">';
 			$contentMenu .= '<a href="'.$facebookURL.'" target="_blank"><span class="screen-reader-text">Facebook</span></a>';
@@ -291,13 +292,13 @@ function crunchify_social_sharing_buttons($content) {
 			$content .= '</div>';
 		}
 		
-		return $content;
+		echo $content;
 	}else{
 		// if not a post/page then don't include sharing button
-		return $content;
+		//return $content;
 	}
 };
-add_filter( 'the_content', 'crunchify_social_sharing_buttons');
+add_action( 'after_content', 'crunchify_social_sharing_buttons');
 
 /**
  * Remove Gallery Inline Styling

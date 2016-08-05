@@ -37,6 +37,11 @@
 					'after'  => '</div>',
 				) );
 			?>
+
+			<?php if ( is_single() && 'post' == get_post_type() ) : ?>
+				<?php do_action('after_content'); ?>
+			<?php endif; ?>
+
 		</div><!-- .entry-content -->
 		<?php endif; ?>
 
@@ -49,6 +54,3 @@
 
 </article><!-- #post-## -->
 
-	<?php if ( is_single() && 'post' == get_post_type() ) : ?>
-		<?php do_action('after_body'); ?>
-	<?php endif; ?>
