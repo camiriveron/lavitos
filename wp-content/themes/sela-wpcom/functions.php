@@ -237,7 +237,7 @@ function sela_enqueue_admin_fonts( $hook ) {
 }
 add_action( 'admin_enqueue_scripts', 'sela_enqueue_admin_fonts' );
 
-function crunchify_social_sharing_buttons() {
+function crunchify_social_sharing_buttons($content) {
 	if(is_singular() || is_home()){
 	
 		// Get current page URL 
@@ -294,13 +294,13 @@ function crunchify_social_sharing_buttons() {
 			$content .= '</ul>';
 		$content .= '</div>';
 		
-		echo $content;
+		return $content;
 	}else{
 		// if not a post/page then don't include sharing button
-		//return $content;
+		return $content;
 	}
 };
-add_action( 'after_body', 'crunchify_social_sharing_buttons');
+add_filter( 'the_content', 'crunchify_social_sharing_buttons');
 
 /**
  * Remove Gallery Inline Styling
