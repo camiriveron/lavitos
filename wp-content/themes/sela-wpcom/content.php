@@ -47,7 +47,7 @@
 		<?php endif; ?>
 	</div><!-- .entry-body -->
 
-	<?php if ( is_single() && 'post' == get_post_type() ) : ?>
+	<?php if ( is_single() ) : ?>
 		<?php do_action('after_body'); ?>
 	<?php endif; ?>
 

@@ -237,7 +237,7 @@ function sela_enqueue_admin_fonts( $hook ) {
 }
 add_action( 'admin_enqueue_scripts', 'sela_enqueue_admin_fonts' );
 
-function crunchify_social_sharing_buttons($content) {
+function crunchify_social_sharing_buttons() {
 	if(is_singular() || is_home()){
 	
 		// Get current page URL 
@@ -259,7 +259,7 @@ function crunchify_social_sharing_buttons($content) {
 		$pinterestURL = 'https://pinterest.com/pin/create/button/?url='.$crunchifyURL.'&amp;media='.$crunchifyThumbnail[0].'&amp;description='.$crunchifyTitle;
  
 		
-
+		$content = '';
 		// Add sharing button at the end of page/page content
 		$content .= '<!-- Crunchify.com social sharing. Get your copy here: http://crunchify.me/1VIxAsz -->';
 		$content .= '<div class="crunchify-social">';
@@ -285,13 +285,13 @@ function crunchify_social_sharing_buttons($content) {
 		$content .= '</div>';
 		$content .= '</div>';
 		
-		return $content;
+		echo $content;
 	}else{
 		// if not a post/page then don't include sharing button
-		return $content;
+		//return $content;
 	}
 };
-add_filter( 'after_body', 'crunchify_social_sharing_buttons');
+add_action( 'after_body', 'crunchify_social_sharing_buttons');
 
 /**
  * Remove Gallery Inline Styling
