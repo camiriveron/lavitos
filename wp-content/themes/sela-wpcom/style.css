@@ -390,6 +390,7 @@ input[type="url"] {
 			border-radius: 2px;
 	-webkit-transition: 0.2s ease-in;
 			transition: 0.2s ease-in;
+	width: 80%;
 }
 input[type="text"]:focus,
 input[type="email"]:focus,
