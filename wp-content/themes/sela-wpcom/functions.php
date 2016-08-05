@@ -291,7 +291,7 @@ function crunchify_social_sharing_buttons($content) {
 		return $content;
 	}
 };
-add_filter( 'the_content', 'crunchify_social_sharing_buttons');
+add_filter( 'after_body', 'crunchify_social_sharing_buttons');
 
 /**
  * Remove Gallery Inline Styling
