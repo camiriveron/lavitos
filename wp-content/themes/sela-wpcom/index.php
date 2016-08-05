@@ -27,6 +27,24 @@ get_header(); ?>
 		</div>
 <?php endif; ?>
 
+<div id="page" class="hfeed site">
+<div id="content" class="site-content">
+
+<div id="primary" class="content-area">
+<main id="main" class="site-main" role="main">
+
+<?php if ( have_posts() ) : ?>
+
+<?php else : ?>
+
+<?php get_template_part( 'content', 'none' ); ?>
+
+<?php endif; ?>
+
+</main><!-- #main -->
+</div><!-- #primary -->
+
+<?php get_sidebar(); ?>
 
 <script>
 (function($) {
