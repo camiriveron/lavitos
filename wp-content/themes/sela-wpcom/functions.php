@@ -258,28 +258,31 @@ function crunchify_social_sharing_buttons($content) {
 		// Based on popular demand added Pinterest too
 		$pinterestURL = 'https://pinterest.com/pin/create/button/?url='.$crunchifyURL.'&amp;media='.$crunchifyThumbnail[0].'&amp;description='.$crunchifyTitle;
  
-		$content .= '<div class="social-links">';
-			$content .= '<ul id="menu-social" class="menu">';
-				$content .= '<li class="menu-item menu-item-type-custom menu-item-object-custom">';
-					$content .= '<a href="'.$googleURL.'"><span class="screen-reader-text">@lavitos</span></a>';
-				$content .= '</li>';
-				$content .= '<li class="menu-item menu-item-type-custom menu-item-object-custom">';
-					$content .= '<a href="'.$facebookURL.'"><span class="screen-reader-text">Facebook</span></a>';
-				$content .= '</li>';
-				$content .= '<li class="menu-item menu-item-type-custom menu-item-object-custom">';
-					$content .= '<a href="'. $twitterURL .'"><span class="screen-reader-text">Twitter</span></a>';
-				$content .= '</li>';
-			$content .= '</ul>';
-		$content .= '</div>';
+		
 
 		// Add sharing button at the end of page/page content
 		$content .= '<!-- Crunchify.com social sharing. Get your copy here: http://crunchify.me/1VIxAsz -->';
 		$content .= '<div class="crunchify-social">';
 		$content .= '<h4>- Comparte esta historia -</h4> <a class="crunchify-link crunchify-twitter" href="'. $twitterURL .'" target="_blank"></a>';
-		$content .= '<a class="crunchify-link crunchify-facebook" href="'.$facebookURL.'" target="_blank"></a>';
-		$content .= '<a class="crunchify-link crunchify-googleplus" href="'.$googleURL.'" target="_blank"></a>';
-		$content .= '<a class="crunchify-link crunchify-linkedin" href="'.$linkedInURL.'" target="_blank"></a>';
-		$content .= '<a class="crunchify-link crunchify-pinterest" href="'.$pinterestURL.'" target="_blank"></a>';
+		$content .= '<div class="social-links">';
+			$content .= '<ul id="menu-social" class="menu">';
+				$content .= '<li class="menu-item menu-item-type-custom menu-item-object-custom">';
+					$content .= '<a href="'.$facebookURL.'" target="_blank"><span class="screen-reader-text">Facebook</span></a>';
+				$content .= '</li>';
+				$content .= '<li class="menu-item menu-item-type-custom menu-item-object-custom">';
+					$content .= '<a href="'. $twitterURL .'" target="_blank"><span class="screen-reader-text">Twitter</span></a>';
+				$content .= '</li>';
+				$content .= '<li class="menu-item menu-item-type-custom menu-item-object-custom">';
+					$content .= '<a href="'.$googleURL.'" target="_blank"><span class="screen-reader-text">Google+</span></a>';
+				$content .= '</li>';
+				$content .= '<li class="menu-item menu-item-type-custom menu-item-object-custom">';
+					$content .= '<a href="'.$pinterestURL.'" target="_blank"><span class="screen-reader-text">Pinterest</span></a>';
+				$content .= '</li>';
+				$content .= '<li class="menu-item menu-item-type-custom menu-item-object-custom">';
+					$content .= '<a href="'.$linkedInURL.'" target="_blank"><span class="screen-reader-text">Linkedin</span></a>';
+				$content .= '</li>';
+			$content .= '</ul>';
+		$content .= '</div>';
 		$content .= '</div>';
 		
 		return $content;
