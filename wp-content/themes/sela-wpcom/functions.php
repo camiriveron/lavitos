@@ -261,11 +261,11 @@ function crunchify_social_sharing_buttons($content) {
 		// Add sharing button at the end of page/page content
 		$content .= '<!-- Crunchify.com social sharing. Get your copy here: http://crunchify.me/1VIxAsz -->';
 		$content .= '<div class="crunchify-social">';
-		$content .= '<h4>- Comparte esta historia -</h4> <a class="crunchify-link crunchify-twitter" href="'. $twitterURL .'" target="_blank">Twitter</a>';
-		$content .= '<a class="crunchify-link crunchify-facebook" href="'.$facebookURL.'" target="_blank">Facebook</a>';
-		$content .= '<a class="crunchify-link crunchify-googleplus" href="'.$googleURL.'" target="_blank">Google+</a>';
-		$content .= '<a class="crunchify-link crunchify-linkedin" href="'.$linkedInURL.'" target="_blank">LinkedIn</a>';
-		$content .= '<a class="crunchify-link crunchify-pinterest" href="'.$pinterestURL.'" target="_blank">Pin It</a>';
+		$content .= '<h4>- Comparte esta historia -</h4> <a class="crunchify-link crunchify-twitter" href="'. $twitterURL .'" target="_blank"></a>';
+		$content .= '<a class="crunchify-link crunchify-facebook" href="'.$facebookURL.'" target="_blank"></a>';
+		$content .= '<a class="crunchify-link crunchify-googleplus" href="'.$googleURL.'" target="_blank"></a>';
+		$content .= '<a class="crunchify-link crunchify-linkedin" href="'.$linkedInURL.'" target="_blank"></a>';
+		$content .= '<a class="crunchify-link crunchify-pinterest" href="'.$pinterestURL.'" target="_blank"></a>';
 		$content .= '</div>';
 		
 		return $content;
