@@ -2270,3 +2270,16 @@ video {
     -webkit-font-smoothing: antialiased;
 }
 
+/*quoty*/
+
+.quoty-lavitos .quoty-inner{
+	background-color: #e950ac;
+}
+
+.quoty-lavitos .quoty-inner button {
+	box-shadow: none;
+}
+
+
+
+
