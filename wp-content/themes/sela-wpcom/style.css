@@ -556,7 +556,13 @@ textarea {
 /* Social Links */
 .social-links {
 	clear: both;
-	margin: 0 auto 1.5em;
+	margin: 0;
+    margin-left: 2em;
+}
+
+.site-footer .social-links {
+	clear: both;
+    margin: 0 auto 1.5em;
 }
 .social-links__header {
 	position: absolute;
@@ -2267,8 +2273,12 @@ video {
 
 /*Social share on posts */
 .crunchify-social {
-    margin: 60px 0px 25px 0px;
+    margin: 40px 0px 25px 0px;
     -webkit-font-smoothing: antialiased;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: baseline;
 }
 
 /*quoty overrides*/
@@ -2306,9 +2316,7 @@ video {
     justify-content: center;
     align-items: center;
     padding-top: 2em;
-    padding-bottom: 2em;
     border-top: 1px solid #f2f2f2;
-    border-bottom: 1px solid #f2f2f2;
 }
 
 .aboutme-widget-post__datos {
