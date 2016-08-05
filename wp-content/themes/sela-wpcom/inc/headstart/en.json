@@ -288,6 +288,71 @@
                     "menu-item-url": "http:\/\/instagram.com"
                 }
             ]
+        },
+        "social_user": {
+            "name": "Social User",
+            "items": [
+                {
+                    "menu-item-title": "Facebook",
+                    "menu-item-db-id": 108,
+                    "menu-item-object-id": "108",
+                    "menu-item-object": "custom",
+                    "menu-item-type": "custom",
+                    "menu-item-status": "publish",
+                    "menu-item-position": 1,
+                    "menu-item-parent-id": "0",
+                    "menu-item-description": "",
+                    "menu-item-url": "http:\/\/facebook.com\/"
+                },
+                {
+                    "menu-item-title": "Twitter",
+                    "menu-item-db-id": 109,
+                    "menu-item-object-id": "109",
+                    "menu-item-object": "custom",
+                    "menu-item-type": "custom",
+                    "menu-item-status": "publish",
+                    "menu-item-position": 2,
+                    "menu-item-parent-id": "0",
+                    "menu-item-description": "",
+                    "menu-item-url": "http:\/\/twitter.com\/wordpressdotcom"
+                },
+                {
+                    "menu-item-title": "Pinterest",
+                    "menu-item-db-id": 110,
+                    "menu-item-object-id": "110",
+                    "menu-item-object": "custom",
+                    "menu-item-type": "custom",
+                    "menu-item-status": "publish",
+                    "menu-item-position": 3,
+                    "menu-item-parent-id": "0",
+                    "menu-item-description": "",
+                    "menu-item-url": "http:\/\/pinterest.com"
+                },
+                {
+                    "menu-item-title": "Flickr",
+                    "menu-item-db-id": 111,
+                    "menu-item-object-id": "111",
+                    "menu-item-object": "custom",
+                    "menu-item-type": "custom",
+                    "menu-item-status": "publish",
+                    "menu-item-position": 4,
+                    "menu-item-parent-id": "0",
+                    "menu-item-description": "",
+                    "menu-item-url": "http:\/\/flickr.com"
+                },
+                {
+                    "menu-item-title": "Instagram",
+                    "menu-item-db-id": 112,
+                    "menu-item-object-id": "112",
+                    "menu-item-object": "custom",
+                    "menu-item-type": "custom",
+                    "menu-item-status": "publish",
+                    "menu-item-position": 5,
+                    "menu-item-parent-id": "0",
+                    "menu-item-description": "",
+                    "menu-item-url": "http:\/\/instagram.com"
+                }
+            ]
         }
     }
 }
