@@ -14,10 +14,8 @@ get_header(); ?>
 			<div id="owl-lavitos" class="owl-carousel l-carousel">
 				<?php while ( have_posts() ) : the_post(); ?>
 					<?php if ( has_post_thumbnail() ) : ?>
-					    <div class="item l-carousel__image">
-					    	<div class="scale__image__wrapper">
-					    		<?php the_post_thumbnail('sela-carousel-thumbnail'); ?>
-					    	</div> 	
+					    <div class="item l-carousel__image scale__image__wrapper">
+					    	<?php the_post_thumbnail('sela-carousel-thumbnail'); ?>
 							<a class="l-carousel__hover" href="<?php the_permalink(); ?>">
 								<h4 class="l-carousel__subtitle"><?php the_time('d-m-Y') ?> por: <?php the_author() ?> </h4>
 								<h1 class="l-carousel__title"><?php the_title_attribute(); ?></h1>
