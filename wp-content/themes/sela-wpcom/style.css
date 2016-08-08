@@ -725,11 +725,17 @@ textarea {
 [class*="navigation"] .nav-previous {
 	float: left;
 	width: 48%;
+	display: flex;
+    flex-direction: column;
+    align-items: flex-start;
 }
 [class*="navigation"] .nav-next {
 	float: right;
 	text-align: right;
 	width: 48%;
+	display: flex;
+    flex-direction: column;
+    align-items: flex-end;
 }
 [class*="navigation"] .nav-previous .meta-nav:before {
 	content: "\2190";
@@ -751,6 +757,7 @@ textarea {
 	line-height: 2;
 	max-width: 100%;
 	word-wrap: break-word;
+	text-align: center;
 }
 .post-navigation a:hover,
 .paging-navigation a:hover,
