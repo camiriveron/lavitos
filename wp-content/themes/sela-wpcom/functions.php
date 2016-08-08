@@ -292,9 +292,6 @@ function crunchify_social_sharing_buttons() {
 		// 	$content .= '</div>';
 		// }
 
-		//about me post
-		$content .= aboutme_post_func();
-
 		echo $content;
 	}else{
 		// if not a post/page then don't include sharing button

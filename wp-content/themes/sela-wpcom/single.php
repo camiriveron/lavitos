@@ -28,6 +28,10 @@ get_header(); ?>
 
 				<?php sela_post_nav(); ?>
 
+				<?php 
+					//about me post
+					echo aboutme_post_func();?>		
+
 				<div class="related-posts__wrapper">
 					<h3 class="widget-title">Historias Relacionadas</h3>
 					<div class="related-posts">
