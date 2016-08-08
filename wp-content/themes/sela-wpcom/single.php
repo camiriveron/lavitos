@@ -57,7 +57,7 @@ get_header(); ?>
 					  ?>
 					   
 					  <div class="relatedthumb">
-					    <a rel="external" href="<? the_permalink()?>"><?php the_post_thumbnail(array(150,150)); ?><br />
+					    <a rel="external" href="<? the_permalink()?>"><?php the_post_thumbnail(array(200,200)); ?><br />
 					    <?php the_title(); ?>
 					    </a>
 					  </div>
