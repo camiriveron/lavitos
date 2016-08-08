@@ -36,15 +36,6 @@ get_header(); ?>
 
 <?php if ( have_posts() ) : ?>
 
-	<?php query_posts('showposts=3'); if (have_posts()) : while (have_posts()) : the_post(); 
-
-
-	get_template_part( 'content', get_post_format() );
-
-	 endwhile;?>
-
-	<p><?php next_posts_link(); ?></p>
-	<p><?php previous_posts_link(); ?></p>
 
 <?php else : ?>
 
