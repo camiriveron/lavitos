@@ -68,17 +68,15 @@ get_header(); ?>
 						    </a>
 						  </div>
 						   
-						  <?	 }
-							  }
-							  $post = $orig_post;
-							  wp_reset_query();
-						  ?>
 						</div>
 					</div>
 
-				<?
-					} //if( $my_query->have_posts() ) {
-				?>
+					<?}
+				  }//if( $my_query->have_posts() ) {
+				  $post = $orig_post;
+				  wp_reset_query();
+				 ?>
+				 
 				<?php
 					// If comments are open or we have at least one comment, load up the comment template
 					if ( comments_open() || '0' != get_comments_number() ) {
