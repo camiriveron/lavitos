@@ -2084,7 +2084,7 @@ video {
 	}
 	.post-navigation,
 	.paging-navigation,
-	.comments-area {
+	.comments-area, .related-posts {
 		margin-left: 146px;
 	}
 	.single-jetpack-testimonial .post-navigation {
@@ -2341,6 +2341,13 @@ video {
 .aboutme-widget .social-links, .aboutme-widget-post .social-links {
 	margin-bottom: 0;
 	margin-left: 0;
+}
+
+.related-posts {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
 }
 
 
