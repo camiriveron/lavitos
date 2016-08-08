@@ -2013,6 +2013,10 @@ video {
 	.social-links {
     	margin-left: 2em;
 	}
+
+	.related-posts {
+	    flex-direction: row;
+	}
     
 }
 
@@ -2373,7 +2377,7 @@ video {
 
 .related-posts {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-between;
     align-items: center;
    	margin-top: 1em;
