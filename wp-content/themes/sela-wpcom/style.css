@@ -561,7 +561,6 @@ textarea {
 .social-links {
 	clear: both;
 	margin: 0;
-    margin-left: 2em;
 }
 
 .site-footer .social-links {
@@ -2009,6 +2008,10 @@ video {
 	    flex-direction: row;
 	    justify-content: flex-start;
 	    align-items: baseline;
+	}
+
+	.social-links {
+    	margin-left: 2em;
 	}
     
 }
