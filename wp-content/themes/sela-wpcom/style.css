@@ -2006,7 +2006,6 @@ video {
 
 .relatedthumb a {
     padding: 5px;
-    overflow: hidden;
 }
 
 .relatedthumb a {
@@ -2020,6 +2019,10 @@ video {
     max-width: 100%;
     word-wrap: break-word;
     text-align: center;
+}
+
+.relatedthumb__image-wrapper {
+	overflow: hidden;
 }
 
 .relatedthumb img {
