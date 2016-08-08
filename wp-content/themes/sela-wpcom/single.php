@@ -51,14 +51,15 @@ get_header(); ?>
 
 
 				 if( $my_query->have_posts() ){
+				 	?>
+				 	<div class="related-posts__wrapper">
+						<h3 class="widget-title">Historias Relacionadas</h3>
+						<div class="related-posts">
+				  <?php		
 				  while( $my_query->have_posts() ) {
 				  $my_query->the_post();
 				  ?>	
 
-					<div class="related-posts__wrapper">
-						<h3 class="widget-title">Historias Relacionadas</h3>
-						<div class="related-posts">
-						   
 						  <div class="relatedthumb">
 						    <a rel="external" href="<? the_permalink()?>">
 							    <div class="scale__image__wrapper">
@@ -67,11 +68,13 @@ get_header(); ?>
 							    <?php the_title(); ?>
 						    </a>
 						  </div>
-						</div>
-					</div>
 					   
 					  <?	 } //while
-
+					  ?>
+				 	
+				 			</div>
+				 		</div>
+				  	<?php
 							} //if have posts
 					  } //if tags
 					  $post = $orig_post;
