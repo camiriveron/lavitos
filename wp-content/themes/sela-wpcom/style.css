@@ -2321,6 +2321,7 @@ video {
     justify-content: center;
     align-items: center;
     padding-top: 2em;
+    padding-bottom: 2em;
     border-top: 1px solid #f2f2f2;
 }
 
@@ -2357,7 +2358,7 @@ video {
     justify-content: center;
     align-items: center;
     padding-top: 2em;
-    margin-top: 1em;
+    padding-bottom: 2em;
     border-top: 1px solid #f2f2f2;
 }
 
