@@ -1996,6 +1996,13 @@ video {
 	.footer-widget-area .widget-area:nth-child(3):nth-last-child(1):last-of-type {
 		margin-right: 0;
 	}
+
+	.aboutme-widget-post {
+	    display: flex;
+	    flex-direction: row;
+	    justify-content: center;
+	    align-items: center;
+	}
 }
 
 @media screen and (min-width: 850px) {
@@ -2322,9 +2329,10 @@ video {
     border-top: 1px solid #f2f2f2;
 }
 
+/* mobile */
 .aboutme-widget-post {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
