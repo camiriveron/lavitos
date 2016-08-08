@@ -61,7 +61,6 @@ get_header(); ?>
 					    <div class="scale__image__wrapper">
 					    	<?php the_post_thumbnail(array(200,200)); ?>
 					    </div>
-					    <br />
 					    <?php the_title(); ?>
 					    </a>
 					  </div>
