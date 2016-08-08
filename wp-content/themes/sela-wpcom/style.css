@@ -2006,6 +2006,7 @@ video {
 
 .relatedthumb a {
     padding: 5px;
+    overflow: hidden;
 }
 
 .relatedthumb a {
@@ -2019,6 +2020,20 @@ video {
     max-width: 100%;
     word-wrap: break-word;
     text-align: center;
+}
+
+.relatedthumb img {
+    -webkit-transition: all 0.2s ease-out;
+   		-moz-transition: all 0.2s ease-out;
+            transition: all 0.2s ease-out;
+}
+
+.relatedthumb img:hover {
+    -webkit-transform: scale(1.02);
+       -moz-transform: scale(1.02);
+        -ms-transform: scale(1.02);
+         -o-transform: scale(1.02);
+            transform: scale(1.02);
 }
 
 .nav-links .widget-title {
