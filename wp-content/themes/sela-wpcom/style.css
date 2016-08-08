@@ -1872,6 +1872,17 @@ video {
     background-size: cover;
     background-position-x: center;
     background-position-y: center;
+    -webkit-transition: all 0.2s ease-out;
+   		-moz-transition: all 0.2s ease-out;
+            transition: all 0.2s ease-out;
+}
+
+.l-carousel .l-carousel__image:hover {
+    -webkit-transform: scale(1.05);
+       -moz-transform: scale(1.05);
+        -ms-transform: scale(1.05);
+         -o-transform: scale(1.05);
+            transform: scale(1.05);
 }
 
 .l-carousel__title {
