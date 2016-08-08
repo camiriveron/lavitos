@@ -2342,6 +2342,7 @@ video {
 .aboutme-widget__descripcion, .aboutme-widget-post__descripcion {
     font-style: italic;
     margin-bottom: 1em;
+    max-width: 85%;
 }
 
 .aboutme-widget .social-links, .aboutme-widget-post .social-links {
