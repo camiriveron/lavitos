@@ -49,10 +49,14 @@ function sela_post_nav() {
 	<nav class="navigation post-navigation" role="navigation">
 		<h1 class="screen-reader-text"><?php _e( 'Post navigation', 'sela' ); ?></h1>
 		<div class="nav-links">
-			<?php
-				previous_post_link( '<div class="nav-previous">%link</div>', _x( '<span class="meta-nav"></span>&nbsp;%title', 'Previous post link', 'sela' ) );
+			<?php 
+				$prevPost = get_previous_post(true); 
+				$prevThumbnail = get_the_post_thumbnail($prevPost->ID, array(150,150) ); 
+
+				previous_post_link( '<div class="nav-previous">%link</div>', _x( $prevThumbnail.'<span class="meta-nav"></span>&nbsp;%title', 'Previous post link', 'sela' ) );
 				next_post_link(     '<div class="nav-next">%link</div>',     _x( '%title&nbsp;<span class="meta-nav"></span>', 'Next post link',     'sela' ) );
 			?>
+
 		</div><!-- .nav-links -->
 	</nav><!-- .navigation -->
 	<?php
