@@ -353,7 +353,7 @@ function aboutme_post_func() {
 		$about_me .= '</div">'; /* div aboutme-widget-post__datos */
 	$about_me .= '</div>'; /* div aboutme-widget-post */
 
-	return $about_me;
+	echo $about_me;
 }
 
 /**
