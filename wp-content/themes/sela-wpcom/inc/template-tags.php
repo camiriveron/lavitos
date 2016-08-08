@@ -322,17 +322,17 @@ function sela_footer_entry_meta() {
 	if ( ! sela_categorized_blog() ) {
 		// This blog only has 1 category so we just need to worry about tags in the meta text
 		if ( '' != $tag_list ) {
-			$meta_text = __( 'Tagged: %2$s', 'sela' );
+			$meta_text = __( 'Etiquetas: %2$s', 'sela' );
 		} else {
-			$meta_text = __( '<a href="%3$s" title="Permalink to %4$s" rel="bookmark">Permalink</a>.', 'sela' );
+			$meta_text = __( '<a href="%3$s" title="Enlace a %4$s" rel="bookmark">Enlace al cuento</a>.', 'sela' );
 		}
 
 	} else {
 		// But this blog has loads of categories so we should probably display them here
 		if ( '' != $tag_list ) {
-			$meta_text = __( 'Posted in: %1$s | Tagged: %2$s', 'sela' );
+			$meta_text = __( 'Publicado en: %1$s | Etiquetas: %2$s', 'sela' );
 		} else {
-			$meta_text = __( 'Posted in: %1$s', 'sela' );
+			$meta_text = __( 'Publicado en: %1$s', 'sela' );
 		}
 
 	} // end check for categories on this blog
