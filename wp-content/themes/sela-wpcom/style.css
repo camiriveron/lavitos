@@ -1816,6 +1816,12 @@ video {
 	overflow: hidden;
 }
 
+.l-carousel.owl-carousel .owl-item img {
+	-webkit-transition: all 0.3s ease-out;
+   		-moz-transition: all 0.3s ease-out;
+            transition: all 0.3s ease-out;
+}
+
 .l-carousel.owl-carousel .owl-item:hover img {
 	 -webkit-transform: scale(1.03);
        -moz-transform: scale(1.03);
@@ -1873,14 +1879,6 @@ video {
 
 .l-carousel .l-carousel__image:hover .l-carousel__hover {
     opacity: 1;
-}
-
-.l-carousel .l-carousel__image {
-    height: 400px;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position-x: center;
-    background-position-y: center;
 }
 
 .l-carousel__title {
