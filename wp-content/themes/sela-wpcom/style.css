@@ -2016,6 +2016,10 @@ video {
     text-align: center;
 }
 
+.relatedthumb a:hover {
+    color: #e950ac;
+}
+
 .scale__image__wrapper {
 	overflow: hidden;
 }
