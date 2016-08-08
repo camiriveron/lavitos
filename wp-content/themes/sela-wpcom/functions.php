@@ -339,12 +339,12 @@ function aboutme_post_func() {
 	$about_me = '';
 	$about_me .= '<div class="aboutme-widget-post__wrapper">';
 		$about_me .= '<h3 class="widget-title">Sobre la autora</h3>';
+		$about_me .= '<div class="aboutme-widget-post__name">';
+			$about_me .= '<h4>'.$user_info->first_name.' '.$user_info->last_name.'</h4>';
+		$about_me .= '</div>';
 		$about_me .= '<div class="aboutme-widget-post">';
 			$about_me .= '<img class="aboutme-widget-post__image" src="'.$avatar_url.'">';
 			$about_me .= '<div class="aboutme-widget-post__datos">';
-				$about_me .= '<div class="aboutme-widget-post__name">';
-					$about_me .= '<h4>'.$user_info->first_name.' '.$user_info->last_name.'</h4>';
-				$about_me .= '</div>';
 				$about_me .= '<div class="aboutme-widget-post__descripcion">';
 					$about_me .= '<span>'.$user_info->description.'</span>';
 				$about_me .= '</div>';
