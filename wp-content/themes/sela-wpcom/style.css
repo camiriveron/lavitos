@@ -722,21 +722,14 @@ textarea {
 .paging-navigation {
 	margin: 1.5em 0 0 0;
 }
-.post-navigation .nav-links {
-	display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-}
 [class*="navigation"] .nav-previous {
-	display: flex;
-    flex-direction: column;
-    align-items: flex-start;
+	float: left;
+	width: 48%;
 }
 [class*="navigation"] .nav-next {
-	display: flex;
-    flex-direction: column;
-    align-items: flex-end;
+	float: right;
+	text-align: right;
+	width: 48%;
 }
 [class*="navigation"] .nav-previous .meta-nav:before {
 	content: "\2190";
