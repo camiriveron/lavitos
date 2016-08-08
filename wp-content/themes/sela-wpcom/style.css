@@ -2085,7 +2085,7 @@ video {
 	.post-navigation,
 	.paging-navigation,
 	.comments-area, .related-posts__wrapper {
-		margin-left: 146px;
+		/*margin-left: 146px;*/
 	}
 	.single-jetpack-testimonial .post-navigation {
 		margin-left: 0;
