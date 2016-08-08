@@ -29,7 +29,7 @@ get_header(); ?>
 				<?php sela_post_nav(); ?>
 
 				<div class="related-posts__wrapper">
-					<h3 class="widget-title">Related posts</h3>
+					<h3 class="widget-title">Historias Relacionadas</h3>
 					<div class="related-posts">
 					<?php
 					  $orig_post = $post;
