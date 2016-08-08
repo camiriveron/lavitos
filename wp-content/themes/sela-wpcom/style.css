@@ -2374,3 +2374,7 @@ video {
     text-align: center;
 }
 
+.nav-links .widget-title {
+    font-style: initial;
+}
+
