@@ -350,7 +350,7 @@ function aboutme_post_func() {
 			if ( has_nav_menu ( 'social' ) ){
 				$about_me .= wp_nav_menu( array( 'echo' => false, 'theme_location' => 'social', 'depth' => 1, 'link_before' => '<span class="screen-reader-text">', 'link_after' => '</span>', 'container_class' => 'social-links', ) );
 			}
-		$about_me .= '</div">'; /* div aboutme-widget-post__datos */
+		$about_me .= '</div>'; /* div aboutme-widget-post__datos */
 	$about_me .= '</div>'; /* div aboutme-widget-post */
 
 	echo $about_me;
