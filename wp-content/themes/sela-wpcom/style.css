@@ -2021,17 +2021,17 @@ video {
     text-align: center;
 }
 
-.relatedthumb__image-wrapper {
+.scale__image__wrapper {
 	overflow: hidden;
 }
 
-.relatedthumb img {
+.scale__image__wrapper img {
     -webkit-transition: all 0.2s ease-out;
    		-moz-transition: all 0.2s ease-out;
             transition: all 0.2s ease-out;
 }
 
-.relatedthumb img:hover {
+.scale__image__wrapper img:hover {
     -webkit-transform: scale(1.03);
        -moz-transform: scale(1.03);
         -ms-transform: scale(1.03);

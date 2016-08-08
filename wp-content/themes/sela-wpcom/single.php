@@ -58,7 +58,7 @@ get_header(); ?>
 					   
 					  <div class="relatedthumb">
 					    <a rel="external" href="<? the_permalink()?>">
-					    <div class="relatedthumb__image-wrapper">
+					    <div class="scale__image__wrapper">
 					    	<?php the_post_thumbnail(array(200,200)); ?>
 					    </div>
 					    <br />
