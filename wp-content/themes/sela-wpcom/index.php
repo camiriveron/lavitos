@@ -41,17 +41,10 @@ get_header(); ?>
 
 	get_template_part( 'content', get_post_format() );
 
-	 endwhile;
+	 endwhile;?>
 
-
-	 // Previous/next page navigation.
-	the_posts_pagination( array(
-		'prev_text'          => __( 'Previous page', 'sela' ),
-		'next_text'          => __( 'Next page', 'sela' ),
-		'before_page_number' => '<span class="meta-nav screen-reader-text">' . __( 'Page', 'sela' ) . ' </span>',
-	) );
-
-	 ?>
+	<p><?php next_posts_link(); ?></p>
+	<p><?php previous_posts_link(); ?></p>
 
 <?php else : ?>
 
