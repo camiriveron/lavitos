@@ -50,33 +50,34 @@ get_header(); ?>
 				  $my_query = new wp_query( $args );
 
 
-				 if( $my_query->have_posts() ) {
-					  while( $my_query->have_posts() ) {
-					  $my_query->the_post();
-					  ?>	
+				 if( $my_query->have_posts() ){
+				  while( $my_query->have_posts() ) {
+				  $my_query->the_post();
+				  ?>	
 
 					<div class="related-posts__wrapper">
-						<h3 class="widget-title">Historias Relacionadas</h3>
-						<div class="related-posts">
-						   
-						  <div class="relatedthumb">
-						    <a rel="external" href="<? the_permalink()?>">
-						    <div class="scale__image__wrapper">
-						    	<?php the_post_thumbnail(array(200,200)); ?>
-						    </div>
-						    <?php the_title(); ?>
-						    </a>
-						  </div>
-						   
-						</div>
-					</div>
+					<h3 class="widget-title">Historias Relacionadas</h3>
+					<div class="related-posts">
+					   
+					  <div class="relatedthumb">
+					    <a rel="external" href="<? the_permalink()?>">
+					    <div class="scale__image__wrapper">
+					    	<?php the_post_thumbnail(array(200,200)); ?>
+					    </div>
+					    <?php the_title(); ?>
+					    </a>
+					  </div>
+					   
+					  <?	 } //while
 
-					<?}
-				  }//if( $my_query->have_posts() ) {
-				  $post = $orig_post;
-				  wp_reset_query();
-				 ?>
-				 
+							} //if have posts
+					  } //if tags
+					  $post = $orig_post;
+					  wp_reset_query();
+					  ?>
+					</div>
+				</div>
+
 				<?php
 					// If comments are open or we have at least one comment, load up the comment template
 					if ( comments_open() || '0' != get_comments_number() ) {
