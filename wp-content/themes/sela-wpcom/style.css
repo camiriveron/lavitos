@@ -2084,7 +2084,7 @@ video {
 	}
 	.post-navigation,
 	.paging-navigation,
-	.comments-area, .related-posts {
+	.comments-area, .related-posts__wrapper {
 		margin-left: 146px;
 	}
 	.single-jetpack-testimonial .post-navigation {
@@ -2350,4 +2350,13 @@ video {
     align-items: center;
 }
 
+.related-posts__wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 2em;
+    margin-top: 1em;
+    border-top: 1px solid #f2f2f2;
+}
 
