@@ -53,11 +53,11 @@ function sela_post_nav() {
 				$prevPost = get_previous_post(true); 
 				$prevThumbnail = get_the_post_thumbnail($prevPost->ID, array(150,150) ); 
 
-				previous_post_link( '<div class="nav-previous">%link</div>', _x( $prevThumbnail.'<span class="meta-nav"></span>&nbsp;%title', 'Previous post link', 'sela' ) );
+				previous_post_link( '<div class="nav-previous">%link</div>', _x( $prevThumbnail.'<div><span class="meta-nav"></span>&nbsp;%title</div>', 'Previous post link', 'sela' ) );
 
 				$nextPost = get_next_post(true); 
 				$nextThumbnail = get_the_post_thumbnail($nextPost->ID, array(150,150) ); 
-				next_post_link('<div class="nav-next">%link</div>',     _x( $nextThumbnail.'%title&nbsp;<span class="meta-nav"></span>', 'Next post link', 'sela' ) );
+				next_post_link('<div class="nav-next">%link</div>',     _x( $nextThumbnail.'<div>%title&nbsp;<span class="meta-nav"></span></div>', 'Next post link', 'sela' ) );
 			?>
 
 		</div><!-- .nav-links -->
