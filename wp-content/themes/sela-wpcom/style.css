@@ -459,9 +459,11 @@ textarea {
 	text-align: left;
 }
 .main-navigation a {
-	font-family: "Oswald", Arial, sans-serif;
-	font-size: 1.5rem;
-    letter-spacing: 2px;
+	font-family: "Open Sans", "Source Sans Pro", sans-serif;
+    font-size: 14px;
+    font-size: 1.4rem;
+    font-weight: 600;
+    line-height: 1.7143;
 	color: #e950ac;
 	display: block;
 	line-height: 1.7143;
