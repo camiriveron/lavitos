@@ -2340,6 +2340,10 @@ video {
 	text-align: center;
 }
 
+.aboutme-widget-post__name h4 {
+	margin-bottom: 0;
+}
+
 .aboutme-widget__descripcion, .aboutme-widget-post__descripcion {
     font-style: italic;
     margin-bottom: 1em;
