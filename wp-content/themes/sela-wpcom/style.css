@@ -2356,9 +2356,21 @@ video {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
     padding-top: 2em;
     padding-bottom: 2em;
     border-top: 1px solid #f2f2f2;
+}
+
+.relatedthumb a {
+    color: #aaa;
+    display: inline-block;
+    font-family: "Droid Serif", Georgia, serif;
+    font-size: 12px;
+    font-size: 1.2rem;
+    font-style: italic;
+    line-height: 2;
+    max-width: 100%;
+    word-wrap: break-word;
+    text-align: center;
 }
 
