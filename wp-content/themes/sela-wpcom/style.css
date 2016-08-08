@@ -2389,6 +2389,10 @@ video {
 }
 
 .relatedthumb a {
+    padding: 5px;
+}
+
+.relatedthumb a {
     color: #aaa;
     display: inline-block;
     font-family: "Droid Serif", Georgia, serif;
