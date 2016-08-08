@@ -1816,6 +1816,14 @@ video {
 	overflow: hidden;
 }
 
+.l-carousel.owl-carousel .owl-item:hover img {
+	 -webkit-transform: scale(1.03);
+       -moz-transform: scale(1.03);
+        -ms-transform: scale(1.03);
+         -o-transform: scale(1.03);
+            transform: scale(1.03);
+}
+
 .l-carousel-next, .l-carousel-previous {
 	position: absolute;
     font-size: 3.5rem;
