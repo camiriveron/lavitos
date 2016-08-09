@@ -1078,7 +1078,7 @@ textarea {
 	width: 110.2%;
 	height: 1px;
 }
-.home.page .hentry:after {
+.home .hentry:after {
 	display: none;
 }
 .hentry.no-title .entry-body {
