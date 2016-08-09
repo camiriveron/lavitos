@@ -8,7 +8,7 @@
 get_header(); ?>
 
 <?php if ( have_posts() ) : ?>
-			<?php query_posts( 'category_name=Cuentos&showposts=8' ); ?>
+			<?php query_posts( 'category_name=Historias&showposts=8' ); ?>
 		<div class="l-carousel__wrapper">
 			<span class="genericon genericon-previous l-carousel-previous"></span>
 			<div id="owl-lavitos" class="owl-carousel l-carousel">
