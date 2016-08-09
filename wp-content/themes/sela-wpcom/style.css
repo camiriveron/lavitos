@@ -2089,7 +2089,7 @@ video {
 }
 
 .register-widget-area input[type="email"] {
-	width: 350px !important;
+	width: 300px !important;
     margin-left: 1em;
     margin-right: 1em;
     border: 2px solid #e950ac;
