@@ -12,10 +12,12 @@ if ( ! is_active_sidebar( 'sidebar-2' ) && ! is_active_sidebar( 'sidebar-3' ) &&
 }
 ?>
 
-<?php if ( is_active_sidebar( 'sidebar-register' ) ) : ?>
-	<div class="widget-area register-widget-area">
-		<?php dynamic_sidebar( 'sidebar-register' ); ?>
-	</div>
+<?php if ( !(is_single() && 'post' == get_post_type()) ) : ?>
+	<?php if ( is_active_sidebar( 'sidebar-register' ) ) : ?>
+		<div class="widget-area register-widget-area">
+			<?php dynamic_sidebar( 'sidebar-register' ); ?>
+		</div>
+	<?php endif; ?>
 <?php endif; ?>
 <?php if ( is_active_sidebar( 'sidebar-instagram' ) ) : ?>
 	<div class="widget-area footer-widget-area">
