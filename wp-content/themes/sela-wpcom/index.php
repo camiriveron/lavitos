@@ -29,7 +29,7 @@ get_header(); ?>
 <?php endif; ?>
 
 <?php if ( is_active_sidebar( 'sidebar-quote' ) ) : ?>
-	<div class="widget-area">
+	<div class="widget-area quote-widget-area">
 		<?php dynamic_sidebar( 'sidebar-quote' ); ?>
 	</div>
 <?php endif; ?>
