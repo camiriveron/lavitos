@@ -34,7 +34,7 @@ get_header(); ?>
 	</div>
 <?php endif; ?>
 
-<div id="page" class="hfeed site">
+<div id="home page" class="hfeed site">
 <div id="content" class="site-content">
 
 <div id="primary" class="content-area">
