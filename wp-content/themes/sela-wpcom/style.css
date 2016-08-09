@@ -2055,7 +2055,7 @@ video {
 
 .widget-area.quote-widget-area {
     background-color: #fafafa;
-    border-top: 1px solid #eee;
+    border-bottom: 1px solid #eee;
     padding: 3em 1.5em 0em 1.5em;
     display: flex;
     flex-direction: column;
