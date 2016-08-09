@@ -1816,6 +1816,7 @@ video {
 }
 
 .l-carousel.owl-carousel .owl-item img {
+	width: 100%;
 	-webkit-transition: all 0.3s ease-out;
    		-moz-transition: all 0.3s ease-out;
             transition: all 0.3s ease-out;
