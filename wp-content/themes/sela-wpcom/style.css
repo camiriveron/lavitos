@@ -2071,9 +2071,9 @@ video {
 
 .register-widget-area .widget {
     display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: flex-start;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     margin-top: 2.5714em;
     margin-left: 10%;
     margin-right: 10%;
@@ -2089,7 +2089,7 @@ video {
 }
 
 .register-widget-area input[type="email"] {
-	width: 521px !important;
+	width: 350px !important;
     margin-left: 1em;
     margin-right: 1em;
     border: 2px solid #e950ac;
@@ -2101,9 +2101,9 @@ video {
 
 .register-widget-area .mc4wp-form-fields div {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
-    align-items: flex-start;
+    align-items: center;
 }
 
 
@@ -2335,6 +2335,22 @@ video {
 
 	.quote-widget-area .widget_text {
 	    font-size: 3rem;
+	}
+
+	.register-widget-area .widget {
+	    flex-direction: row;
+	    justify-content: space-around;
+	    align-items: flex-start;
+	}
+
+	.register-widget-area .mc4wp-form-fields div {
+	    flex-direction: row;
+	    justify-content: center;
+	    align-items: flex-start;
+	}
+
+	.register-widget-area input[type="email"] {
+		width: 521px !important;
 	}
     
 }
