@@ -2074,6 +2074,21 @@ video {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-top: 2.5714em;
+}
+
+.register-widget-area {
+    background-color: #e950ac;
+    color: #ffffff;
+    font-family: "Open Sans", "Source Sans Pro", sans-serif;
+    font-size: 1.4rem;
+    font-weight: 600;
+}
+
+.register-widget-area input[type="email"] {
+	width: 300px;
+	margin-left: 1em;
+	margin-right: 1em;
 }
 
 .register-widget-area .mc4wp-form-fields div{
