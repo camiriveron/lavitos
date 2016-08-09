@@ -2064,7 +2064,7 @@ video {
 }
 
 .quote-widget-area .widget_text {
-    font-size: 3rem;
+    font-size: 2rem;
     max-width: 1000px;
     margin-bottom: 0;
 }
@@ -2331,6 +2331,10 @@ video {
 
 	.related-posts {
 	    flex-direction: row;
+	}
+
+	.quote-widget-area .widget_text {
+	    font-size: 3rem;
 	}
     
 }
