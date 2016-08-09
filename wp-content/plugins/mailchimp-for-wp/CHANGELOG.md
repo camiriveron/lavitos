@@ -1,7 +1,34 @@
 Changelog
 =========
 
-#### 3.1.12 - July 28. 2016
+#### 4.0 - August 9, 2016
+
+This release updates the plugin to version 3 of the MailChimp API. Please [read through the upgrade guide](https://mc4wp.com/kb/upgrading-to-4-0/) before updating to make sure things keep working as expected for you.
+
+**Changes**
+
+- "Send welcome email" is now handled from your list settings in MailChimp.
+- Filter `mc4wp_form_merge_vars` is now called `mc4wp_form_data`.
+- Filter `mc4wp_integration_merge_vars` is now called `mc4wp_integration_data`.
+- New format for GROUPING fields in forms & filter hooks.
+- Value delimiter in hidden fields is now a pipe `|` character.
+
+**Additions**
+
+- New filter: `mc4wp_form_subscriber_data`.
+- New filter: `mc4wp_integration_subscriber_data`.
+- New form tag: `{cookie name="mycookie"}`
+
+**Improvements**
+
+- The plugin now communicates with the latest & greatest MailChimp API.
+- Previously unsubscribed subscribers can now be re-added without errors.
+- Add `User-Agent` header to all API requests.
+- Available fields in form editor are now split-up by category.
+- Birthday fields now accept a broader range of values and delimiters.
+
+
+#### 3.1.12 - July 28, 2016
 
 **Improvements**
 

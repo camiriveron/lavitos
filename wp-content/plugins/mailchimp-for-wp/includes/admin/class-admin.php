@@ -116,7 +116,7 @@ class MC4WP_Admin {
 		do_action( 'mc4wp_admin_' . $action );
 
 		// redirect back to where we came from
-		$redirect_url = remove_query_arg( '_mc4wp_action' );
+		$redirect_url = ! empty( $_POST['_redirect_to'] ) ? $_POST['_redirect_to'] : remove_query_arg( '_mc4wp_action' );
 		wp_redirect( $redirect_url );
 		exit;
 	}
@@ -136,6 +136,7 @@ class MC4WP_Admin {
 		 * Use this hook to register your own dashboard widgets for users with the required capability.
 		 *
 		 * @since 3.0
+         * @ignore
 		 */
 		do_action( 'mc4wp_dashboard_setup' );
 
@@ -153,12 +154,25 @@ class MC4WP_Admin {
 			delete_option( 'mc4wp_lite_version' );
 			update_option( 'mc4wp_version', $previous_version );
 		}
-
-		// Only run if db option is at older version than code constant
+        
 		$previous_version = get_option( 'mc4wp_version', 0 );
 
-        // Installing or rollback?
-        if( empty( $previous_version ) || version_compare( $previous_version, MC4WP_VERSION, '>' ) ) {
+        // Ran upgrade routines before?
+        if( empty( $previous_version ) ) {
+            update_option( 'mc4wp_version', MC4WP_VERSION );
+
+            // if we have at least one form, we're going to run upgrade routine for v3 => v4 anyway.
+            // TODO: Remove this once we hit 4.2.x
+            $posts = get_posts( array( 'post_type' => 'mc4wp-form', 'numberposts' => 1 ) );
+            if( empty( $posts ) ) {
+                return false;
+            }
+
+            $previous_version = '3.9';
+        }
+
+        // Rollback'ed?
+        if( version_compare( $previous_version, MC4WP_VERSION, '>' ) ) {
             update_option( 'mc4wp_version', MC4WP_VERSION );
             return false;
         }
@@ -426,7 +440,13 @@ class MC4WP_Admin {
 	 */
 	public function show_generals_setting_page() {
 		$opts = mc4wp_get_options();
-		$connected = ( mc4wp('api')->is_connected() );
+
+        try {
+            $connected = $this->get_api()->is_connected();
+        } catch( Exception $e ) {
+            $connected = false;
+        }
+
 		$lists = $this->mailchimp->get_lists();
 		$obfuscated_api_key = mc4wp_obfuscate_string( $opts['api_key'] );
 		require MC4WP_PLUGIN_DIR . 'includes/views/general-settings.php';
@@ -509,5 +529,12 @@ class MC4WP_Admin {
 	protected function get_log() {
 		return mc4wp('log');
 	}
+
+    /**
+     * @return MC4WP_API_v3
+     */
+	protected function get_api() {
+	    return mc4wp('api');
+    }
 
 }
