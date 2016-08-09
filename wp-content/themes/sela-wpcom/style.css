@@ -2071,31 +2071,35 @@ video {
 
 .register-widget-area .widget {
     display: flex;
-    flex-direction: column;
-    justify-content: center;
+    flex-direction: row;
+    justify-content: space-around;
     align-items: center;
     margin-top: 2.5714em;
+    margin-left: 10%;
+    margin-right: 10%;
 }
 
 .register-widget-area {
-    background-color: #ef7dc1;
-    color: #ffffff;
+    background-color: #ffffff;
+    color: #e950ac;
     font-family: "Open Sans", "Source Sans Pro", sans-serif;
     font-size: 1.4rem;
     font-weight: 600;
+    border-top: 1px solid #eee;
 }
 
 .register-widget-area input[type="email"] {
-	width: 300px;
-	margin-left: 1em;
-	margin-right: 1em;
+	width: 521px !important;
+    margin-left: 1em;
+    margin-right: 1em;
+    border: 2px solid #e950ac;
 }
 
-.register-widget-area .mc4wp-form-fields div{
+.register-widget-area .mc4wp-form-fields div {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
-    align-items: baseline;
+    align-items: center;
 }
 
 
