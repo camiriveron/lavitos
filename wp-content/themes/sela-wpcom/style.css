@@ -2069,6 +2069,22 @@ video {
     margin-bottom: 0;
 }
 
+.register-widget-area .widget {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.register-widget-area .mc4wp-form-fields div{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: baseline;
+}
+
+
+
 /*--------------------------------------------------------------
 13 Media Queries
 --------------------------------------------------------------*/
