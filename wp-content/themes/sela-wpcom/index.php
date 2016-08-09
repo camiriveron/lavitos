@@ -28,6 +28,12 @@ get_header(); ?>
 		</div>
 <?php endif; ?>
 
+<?php if ( is_active_sidebar( 'sidebar-quote' ) ) : ?>
+	<div class="widget-area">
+		<?php dynamic_sidebar( 'sidebar-quote' ); ?>
+	</div>
+<?php endif; ?>
+
 <div id="page" class="hfeed site">
 <div id="content" class="site-content">
 
