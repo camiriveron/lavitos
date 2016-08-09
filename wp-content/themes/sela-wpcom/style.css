@@ -869,6 +869,7 @@ textarea {
 	font-size: 1.4rem;
 	line-height: 1.7143;
 	margin-bottom: 2.5714em;
+	text-align: center;
 }
 .widget-title {
 	font-family: "Open Sans", "Source Sans Pro", sans-serif;
@@ -1793,8 +1794,6 @@ video {
 	display: none;
 }
 
-
-
 /* CAROUSEL */
 
 .l-carousel__wrapper {
@@ -1984,6 +1983,8 @@ video {
 	margin-left: 0;
 }
 
+/* posts relacionados */
+
 .related-posts {
     display: flex;
     flex-direction: column;
@@ -2025,6 +2026,8 @@ video {
     color: #666;
 }
 
+/* efecto zoom en fotos */
+
 .scale__image__wrapper {
 	overflow: hidden;
 }
@@ -2043,6 +2046,8 @@ video {
             transform: scale(1.03);
 }
 
+/* navegacion en posts */
+
 .nav-links .widget-title {
     font-style: initial;
 }
@@ -2052,6 +2057,8 @@ video {
    		-moz-transition: all 0.2s ease-out;
             transition: all 0.2s ease-out;
 }
+
+/* Quote area in homepage */
 
 .widget-area.quote-widget-area {
     background-color: #fafafa;
@@ -2076,6 +2083,8 @@ video {
 .quote-widget-area  .su-quote-inner {
     color: #757575;
 } 
+
+/* Register From in Homepage */
 
 .register-widget-area .widget {
     display: flex;
@@ -2113,6 +2122,14 @@ video {
     justify-content: center;
     align-items: center;
 }
+
+/* notification message in suscribe */
+.widget .mc4wp-response {
+	text-align: center;
+    color: #e950ac;
+    margin-top: 1em;
+}
+
 
 
 
