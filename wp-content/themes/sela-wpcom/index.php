@@ -58,6 +58,8 @@ get_header(); ?>
 
 <?php get_sidebar(); ?>
 
+<?php get_footer(); ?>
+
 <script>
 (function($) {
 
@@ -85,7 +87,6 @@ get_header(); ?>
 
 })( jQuery );
 </script>
-<?php get_footer(); ?>
 
 
 
