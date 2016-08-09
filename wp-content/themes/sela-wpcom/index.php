@@ -35,11 +35,11 @@ get_header(); ?>
 <main id="main" class="site-main" role="main">
 
 <?php if ( have_posts() ) : ?>
-	
+
 	<?php query_posts( 'category_name=Historias&showposts=1' ); ?>
-	<?php while ( have_posts() ) : the_post(); ?>
+	<?php while ( have_posts() ) : the_post(); 
 		get_template_part( 'content', get_post_format() );
-	<?php endwhile; ?>
+	 endwhile; ?>
 
 <?php else : ?>
 
