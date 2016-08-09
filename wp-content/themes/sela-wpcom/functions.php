@@ -196,8 +196,8 @@ function sela_widgets_init() {
 		'id'            => 'sidebar-register',
 		'before_widget' => '<aside id="%1$s" class="widget %2$s">',
 		'after_widget'  => '</aside>',
-		'before_title'  => '',
-		'after_title'   => '',
+		'before_title'  => '<h3 class="widget-title">',
+		'after_title'   => '</h3>'
 	) );
 }
 add_action( 'widgets_init', 'sela_widgets_init' );
