@@ -1811,7 +1811,6 @@ video {
 }
 
 .l-carousel.owl-carousel .owl-item {
-	height: 400px !important;
 	position: relative;
 	overflow: hidden;
 }
