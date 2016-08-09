@@ -17,8 +17,8 @@ get_header(); ?>
 					    <div class="item l-carousel__image scale__image__wrapper">
 					    	<?php the_post_thumbnail('sela-carousel-thumbnail'); ?>
 							<a class="l-carousel__hover" href="<?php the_permalink(); ?>">
-								<h4 class="l-carousel__subtitle"><?php the_time('d-m-Y') ?> por: <?php the_author() ?> </h4>
 								<h1 class="l-carousel__title"><?php the_title_attribute(); ?></h1>
+								<h4 class="l-carousel__subtitle"><?php the_time('d-m-Y') ?> por: <?php the_author() ?> </h4>
 							</a>
 						</div>
 					<?php endif; ?>
@@ -35,7 +35,6 @@ get_header(); ?>
 <main id="main" class="site-main" role="main">
 
 <?php if ( have_posts() ) : ?>
-
 
 <?php else : ?>
 
