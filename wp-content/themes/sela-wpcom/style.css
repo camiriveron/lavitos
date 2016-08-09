@@ -2340,7 +2340,7 @@ video {
 	.register-widget-area .widget {
 	    flex-direction: row;
 	    justify-content: space-around;
-	    align-items: flex-start;
+	    align-items: center;
 	}
 
 	.register-widget-area .mc4wp-form-fields div {
