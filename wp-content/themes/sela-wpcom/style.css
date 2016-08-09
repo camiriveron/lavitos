@@ -1887,7 +1887,9 @@ video {
 	padding-left: 3rem;
 	direction: rtl;
 	transition: all .2s linear;
-	text-shadow: 0 0 3px rgba(0,0,0,0.9);
+	text-shadow: 0 0 3px rgba(0,0,0,1);
+	line-height: 3rem;
+    height: 4rem;
 }
 
 .l-carousel__title:hover {
