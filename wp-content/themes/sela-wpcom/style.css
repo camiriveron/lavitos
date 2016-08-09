@@ -2095,6 +2095,10 @@ video {
     border: 2px solid #e950ac;
 }
 
+.register-widget-area input[type="submit"] {
+	height: 40px;
+}
+
 .register-widget-area .mc4wp-form-fields div {
     display: flex;
     flex-direction: row;
