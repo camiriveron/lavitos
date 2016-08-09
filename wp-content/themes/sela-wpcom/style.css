@@ -2069,6 +2069,14 @@ video {
     margin-bottom: 0;
 }
 
+.quote-widget-area  .su-quote-cite {
+    font-family: 'Meddon', cursive;
+}
+
+.quote-widget-area  .su-quote-inner {
+    color: #757575;
+} 
+
 .register-widget-area .widget {
     display: flex;
     flex-direction: column;
