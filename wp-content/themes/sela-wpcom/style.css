@@ -2363,15 +2363,10 @@ video {
 	}
 
 	.register-widget-area .widget {
+		margin-top: 5em;
 	    flex-direction: row;
 	    justify-content: space-around;
 	    align-items: baseline;
-	}
-
-	.register-widget-area .mc4wp-form-fields div {
-	    flex-direction: row;
-	    justify-content: center;
-	    align-items: flex-start;
 	}
 
 	.register-widget-area input[type="email"] {
@@ -2552,6 +2547,12 @@ video {
 		width: 360px;
 		max-width: 100%;
 		margin: 0 55px 0 0;
+	}
+
+	.register-widget-area .mc4wp-form-fields div {
+	    flex-direction: row;
+	    justify-content: center;
+	    align-items: flex-start;
 	}
 }
 
