@@ -2193,9 +2193,14 @@ video {
 
 .infinite-scroll__resumen {
 	margin-right: 1em;
-	margin-left: 1em;
-	text-align: center;
-	margin-top: 3em;
+    margin-left: 1em;
+    margin-bottom: 1em;
+    text-align: center;
+    margin-top: 1em;
+}
+
+.alm-btn-wrap {
+    text-align: center;
 }
 
 
