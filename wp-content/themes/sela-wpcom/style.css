@@ -2155,11 +2155,11 @@ video {
 }
 
 .infinite-scroll__item:hover img {
-    -webkit-transform: scale(1.03);
-       -moz-transform: scale(1.03);
-        -ms-transform: scale(1.03);
-         -o-transform: scale(1.03);
-            transform: scale(1.03);
+    -webkit-transform: scale(1.02);
+       -moz-transform: scale(1.02);
+        -ms-transform: scale(1.02);
+         -o-transform: scale(1.02);
+            transform: scale(1.02);
 }
 
 .infinite-scroll__hover {
