@@ -2183,6 +2183,25 @@ video {
     transition: all .3s linear;
 }
 
+.infinite-scroll__hover--small {
+	opacity: 1;
+	position: absolute;
+	cursor: pointer;
+	top: 0;
+	left: 0;
+	right: 0;
+	margin-right: auto;
+	margin-left: auto;
+	width: 99%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+	align-items: flex-end;
+	transition: all .3s linear;
+    background: linear-gradient(to bottom,rgba(0,0,0,0) 55%,rgba(0,0,0,1) 100%);
+}
+
 .infinite-scroll__item:hover .infinite-scroll__hover {
 	opacity: 1;
 	color: #ffffff;
@@ -2454,6 +2473,10 @@ video {
 
 	.register-widget-area input[type="email"] {
 		width: 521px !important;
+	}
+
+	.infinite-scroll__hover--small {
+		display: none;
 	}
     
 }

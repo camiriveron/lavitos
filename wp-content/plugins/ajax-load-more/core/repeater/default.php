@@ -7,4 +7,8 @@
       	<h4 class="infinite-scroll__subtitle"><?php the_time("d-m-Y") ?> por: <?php the_author() ?> </h4>
    	  </div>
    </a>
+   <a class="infinite-scroll__hover--small" href="<?php the_permalink(); ?>">
+   	  	<h1 class="infinite-scroll__title"><?php the_title_attribute(); ?></h1>
+      	<h4 class="infinite-scroll__subtitle"><?php the_time("d-m-Y") ?> por: <?php the_author() ?> </h4>
+   </a>
 </div>
