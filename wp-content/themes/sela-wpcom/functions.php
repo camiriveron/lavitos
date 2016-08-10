@@ -61,6 +61,8 @@ function sela_setup() {
 	add_image_size( 'sela-grid-thumbnail', 360, 242, array( 'center', 'center' ) );
 	// Carousel thumbnail
 	add_image_size( 'sela-carousel-thumbnail', 450, 450, true);
+	// Carousel thumbnail
+	add_image_size( 'sela-historias-thumbnail', 300, 300, true);
 	// Testimonial thumbnail
 	add_image_size( 'sela-testimonial-thumbnail', 90, 90, array( 'center', 'center' ) );
 

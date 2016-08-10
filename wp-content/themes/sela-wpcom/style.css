@@ -2143,6 +2143,7 @@ video {
 .infinite-scroll__item {
 	position: relative;
 	color: #ffffff;
+	margin-bottom: 1em;
 }
 
 .infinite-scroll__hover {
