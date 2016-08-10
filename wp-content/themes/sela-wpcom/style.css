@@ -2130,6 +2130,52 @@ video {
     margin-top: 1em;
 }
 
+/* Infinite scroll */
+.infinit-scroll {
+	display: flex;	
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+	flex-wrap: wrap;
+	position: relative;
+}
+
+.infinite-scroll__item {
+	position: relative;
+	color: #ffffff;
+}
+
+.infinite-scroll__hover {
+	opacity: 0.8;
+	position: absolute;
+	cursor: pointer;
+	top: 0;
+	left: 0;
+	right: 0;
+	margin-right: auto;
+	margin-left: auto;
+	width: 99%;
+	height: 100%;
+	background-color: rgba(0,0,0,0.6);
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+	align-items: flex-end;
+	transition: all .3s linear;
+    background: linear-gradient(to bottom,rgba(0,0,0,0) 55%,rgba(0,0,0,1) 100%);
+}
+
+.infinite-scroll__title {
+
+}
+
+.infinite-scroll__subtitle {
+
+}
+
+.infinite-scroll__resumen {
+
+}
 
 
 
