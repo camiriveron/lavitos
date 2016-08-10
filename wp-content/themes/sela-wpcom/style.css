@@ -2131,7 +2131,7 @@ video {
 }
 
 /* Infinite scroll */
-.infinit-scroll {
+.infinit-scroll .alm-reveal{
 	display: flex;	
 	flex-direction: row;
 	justify-content: space-around;
