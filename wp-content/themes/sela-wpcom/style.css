@@ -2148,6 +2148,17 @@ video {
 
 .infinite-scroll__item img {
 	width: 330px;
+	-webkit-transition: all 0.2s ease-out;
+   		-moz-transition: all 0.2s ease-out;
+            transition: all 0.2s ease-out;
+}
+
+.infinite-scroll__item img:hover {
+    -webkit-transform: scale(1.03);
+       -moz-transform: scale(1.03);
+        -ms-transform: scale(1.03);
+         -o-transform: scale(1.03);
+            transform: scale(1.03);
 }
 
 .infinite-scroll__hover {
