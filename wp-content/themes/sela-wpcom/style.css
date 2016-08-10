@@ -2153,7 +2153,7 @@ video {
             transition: all 0.2s ease-out;
 }
 
-.infinite-scroll__item img:hover {
+.infinite-scroll__item:hover img {
     -webkit-transform: scale(1.03);
        -moz-transform: scale(1.03);
         -ms-transform: scale(1.03);
