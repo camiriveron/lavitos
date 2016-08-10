@@ -2148,9 +2148,9 @@ video {
 
 .infinite-scroll__item img {
 	width: 330px;
-	-webkit-transition: all 0.2s ease-out;
-   		-moz-transition: all 0.2s ease-out;
-            transition: all 0.2s ease-out;
+	-webkit-transition: all 0.3s ease-out;
+   		-moz-transition: all 0.3s ease-out;
+            transition: all 0.3s ease-out;
 }
 
 .infinite-scroll__item:hover img {
