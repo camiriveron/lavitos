@@ -2172,7 +2172,9 @@ video {
 }
 
 .infinite-scroll__title {
-
+	line-height: 3rem;
+    height: 4rem;
+    text-align: center;
 }
 
 .infinite-scroll__subtitle {
