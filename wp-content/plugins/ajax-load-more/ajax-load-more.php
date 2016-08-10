@@ -65,7 +65,15 @@ function alm_create_table(){
 	$table_name = $wpdb->prefix . "alm";
 	$blog_id = $wpdb->blogid;
 	
-	$defaultRepeater = '<li <?php if (!has_post_thumbnail()) { ?> class="no-img"<?php } ?>><?php if ( has_post_thumbnail() ) { the_post_thumbnail(array(150,150));}?><h3><a href="<?php the_permalink(); ?>" title="<?php the_title(); ?>"><?php the_title(); ?></a></h3><p class="entry-meta"><?php the_time("F d, Y"); ?></p><?php the_excerpt(); ?></li>';	
+
+   $defaultRepeater = '<div class="item l-carousel__image scale__image__wrapper">
+       <?php the_post_thumbnail("sela-carousel-thumbnail"); ?>
+       <a class="l-carousel__hover" href="<?php the_permalink(); ?>">
+          <h1 class="l-carousel__title"><?php the_title_attribute(); ?></h1>
+          <h4 class="l-carousel__subtitle"><?php the_time("d-m-Y") ?> por: <?php the_author() ?> </h4>
+          <?php the_excerpt(); ?> 
+       </a>
+   </div>';
 	
 	/* MULTISITE */
    /* if this is a multisite blog and it's not id = 1, create default template */
