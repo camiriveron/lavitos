@@ -2476,14 +2476,6 @@ video {
 	.register-widget-area input[type="email"] {
 		width: 521px !important;
 	}
-
-	.infinite-scroll__hover--small {
-		display: none;
-	}
-
-	.infinite-scroll__item {
-		pointer-events: auto;
-	}
     
 }
 
@@ -2522,6 +2514,14 @@ video {
 	}
 	.comments-closed .hentry:after {
 		display: none;
+	}
+
+	.infinite-scroll__hover--small {
+		display: none;
+	}
+
+	.infinite-scroll__item {
+		pointer-events: auto;
 	}
 
 }
