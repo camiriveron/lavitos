@@ -2151,7 +2151,7 @@ video {
 }
 
 .infinite-scroll__hover {
-	opacity: 1;
+	opacity: 0;
     color: #ffffff;
     position: absolute;
     cursor: pointer;
@@ -2169,6 +2169,10 @@ video {
     justify-content: space-between;
     align-items: center;
     transition: all .3s linear;
+}
+
+.infinite-scroll__item:hover infinite-scroll__hover {
+	opacity: 1;
 }
 
 .infinite-scroll__title {
