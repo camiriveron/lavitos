@@ -2144,6 +2144,7 @@ video {
 	position: relative;
 	color: #ffffff;
 	margin-bottom: 1.70em;
+	overflow: hidden;
 }
 
 .infinite-scroll__item img {
