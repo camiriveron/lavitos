@@ -19,6 +19,8 @@ get_header(); ?>
 		<?php endwhile; // end of the loop. ?>
 	</div><!-- #primary -->
 
+</div><!-- #page -->
+
 	<?php get_sidebar( 'front-page' ); ?>
 
 
