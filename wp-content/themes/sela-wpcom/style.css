@@ -2171,7 +2171,7 @@ video {
     transition: all .3s linear;
 }
 
-.infinite-scroll__item:hover infinite-scroll__hover {
+.infinite-scroll__item:hover .infinite-scroll__hover {
 	opacity: 1;
 }
 
