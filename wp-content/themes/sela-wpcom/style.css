@@ -2173,6 +2173,7 @@ video {
 
 .infinite-scroll__item:hover .infinite-scroll__hover {
 	opacity: 1;
+	color: #ffffff;
 }
 
 .infinite-scroll__title {
