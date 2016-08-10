@@ -2166,7 +2166,7 @@ video {
     background-color: rgba(0,0,0,0.6);
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     transition: all .3s linear;
 }
@@ -2188,6 +2188,7 @@ video {
 .infinite-scroll__resumen {
 	margin-right: 1em;
 	margin-left: 1em;
+	text-align: center;
 }
 
 
