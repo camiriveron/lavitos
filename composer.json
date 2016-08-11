@@ -5,10 +5,5 @@
 		"ext-mbstring": "*",
 		"php": "^7.0",
 		"wpackagist-plugin/quoty": "1.1.4"
-	},
-	"extra": {
-        "installer-paths": {
-            "vendor/WordPress/WordPress/wp-content/plugins/{$name}/": [ "type:wordpress-plugin" ]
-        }
-    }
+	}
 }
