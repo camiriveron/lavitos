@@ -2210,6 +2210,10 @@ video {
 	color: #ffffff;
 }
 
+.infinite-scroll__title-area {
+	width: 100%;
+}
+
 .infinite-scroll__title {
 	line-height: 3rem;
     height: 4rem;
