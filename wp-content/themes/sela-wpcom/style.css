@@ -2146,7 +2146,6 @@ video {
 	margin-bottom: 1.5em;
 	margin-right: 1.5em;
 	overflow: hidden;
-	pointer-events: none;
 	height: 330px;
 }
 
@@ -2166,7 +2165,7 @@ video {
 }
 
 .infinite-scroll__hover {
-	opacity: 0;
+	display: none;
     color: #ffffff;
     position: absolute;
     cursor: pointer;
@@ -2179,10 +2178,6 @@ video {
     height: 100%;
     text-shadow: 0 0 4px rgba(0,0,0,1);
     background-color: rgba(0,0,0,0.7);
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
     transition: all .3s linear;
 }
 
@@ -2555,6 +2550,13 @@ video {
 
 	.infinite-scroll__hover--small {
 		display: none;
+	}
+
+	.infinite-scroll__hover {
+		display: flex;
+	    flex-direction: column;
+	    justify-content: space-between;
+	    align-items: center;
 	}
 
 	.infinite-scroll__item {
