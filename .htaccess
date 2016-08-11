@@ -1,3 +1,19 @@
+<files wp-config.php>
+order allow,deny
+deny from all
+</files>
+
+# Block the include-only files.
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteBase /
+RewriteRule ^wp-admin/includes/ - [F,L]
+RewriteRule !^wp-includes/ - [S=3]
+RewriteRule ^wp-includes/[^/]+\.php$ - [F,L]
+RewriteRule ^wp-includes/js/tinymce/langs/.+\.php - [F,L]
+RewriteRule ^wp-includes/theme-compat/ - [F,L]
+</IfModule>
+
 # BEGIN WordPress
 <IfModule mod_rewrite.c>
 RewriteEngine On
@@ -12,16 +28,9 @@ RewriteRule . /index.php [L]
 
 Options -Indexes
 
-<Files wp-login.php>
-AuthName "Login Password Required"
-AuthType Basic
-AuthUserFile /app/.htpasswd
-require valid-user
-</Files>
-
 <Files web_boot.sh>
 Require all denied
 </Files>
 
-SetEnv TZ Asia/Tokyo
+SetEnv TZ America/Santiago
 

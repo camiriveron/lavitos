@@ -16,6 +16,9 @@
 
 $_SERVER['HTTPS'] = 'on';
 
+//Wordpress in spanish
+define('WPLANG','es_ES');
+
 // ** Heroku Postgres settings - from Heroku Environment ** //
 $db = parse_url($_ENV["DATABASE_URL"]);
 
@@ -37,6 +40,9 @@ define('DB_CHARSET', 'utf8');
 
 /** The Database Collate type. Don't change this if in doubt. */
 define('DB_COLLATE', '');
+
+/* Disable File Editing on wp-admin */
+define('DISALLOW_FILE_EDIT', true);
 
 /**#@+
  * Authentication Unique Keys and Salts.
