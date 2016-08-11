@@ -1,6 +1,6 @@
 {
 	"name": "lavitos",
-	"description": "Blog donde puedes encontrar diversas historias y esperiencias de vida",
+	"description": "Blog donde puedes encontrar diversas historias y experiencias de vida",
 	 "repositories":[
         {
             "type":"composer",
