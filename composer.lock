@@ -110,26 +110,6 @@
             "time": "2016-07-05 06:18:20"
         },
         {
-            "name": "wpackagist-plugin/ajax-load-more",
-            "version": "2.11.2",
-            "source": {
-                "type": "svn",
-                "url": "https://plugins.svn.wordpress.org/ajax-load-more/",
-                "reference": "trunk"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/ajax-load-more.zip",
-                "reference": null,
-                "shasum": null
-            },
-            "require": {
-                "composer/installers": "~1.0"
-            },
-            "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/ajax-load-more/"
-        },
-        {
             "name": "wpackagist-plugin/akismet",
             "version": "3.1.11",
             "source": {

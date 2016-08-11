@@ -11,7 +11,6 @@
 		"ext-mbstring": "*",
 		"php": "^7.0",
 		"wpackagist-plugin/quoty": "1.1.4",
-		"wpackagist-plugin/ajax-load-more": "2.11.2",
 		"wpackagist-plugin/akismet": "3.1.11",
 		"wpackagist-plugin/all-in-one-seo-pack": "2.3.8",
 		"wpackagist-plugin/all-in-one-wp-security-and-firewall": "4.1.4",
