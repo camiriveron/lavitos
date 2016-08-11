@@ -316,10 +316,9 @@ input[type="button"],
 input[type="reset"],
 input[type="submit"],
 #infinite-handle span {
-	background-color: #ffffff;
+	background-color: #e950ac;
     border-style: none;
-    border: 2px solid #e950ac;
-    color: #e950ac;
+    color: #ffffff;
     cursor: pointer;
     display: inline-block;
     font-size: 12px;
@@ -343,10 +342,6 @@ input[type="reset"]:hover,
 input[type="submit"]:hover,
 #infinite-handle span:hover {
 	opacity: 0.85;
-	background-color: #e950ac;
-    border-style: none;
-    border: 2px solid #e950ac;
-    color: #ffffff;
 }
 button:focus,
 html input[type="button"]:focus,
@@ -2247,6 +2242,35 @@ video {
 
 .alm-btn-wrap {
     text-align: center;
+}
+
+.load-more {
+	background-color: #ffffff;
+    border-style: none;
+    border: 2px solid #e950ac;
+    color: #e950ac;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 12px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    line-height: 2;
+    padding: 6px 15px;
+    text-align: center;
+    vertical-align: middle;
+    text-transform: uppercase;
+    -webkit-appearance: none;
+    	-webkit-border-radius: 2px;
+	   	   -moz-border-radius: 2px;
+				border-radius: 2px;
+	-webkit-transition: 0.2s ease-in;
+			transition: 0.2s ease-in;
+}
+
+load-more:hover {
+	opacity: 0.85;
+	background-color: #e950ac;
+    color: #ffffff;
 }
 
 
