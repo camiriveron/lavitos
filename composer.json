@@ -1,9 +1,16 @@
 {
 	"name": "lavitos",
 	"description": "Blog donde puedes encontrar diversas historias y esperiencias de vida",
+	 "repositories":[
+        {
+            "type":"composer",
+            "url":"https://wpackagist.org"
+        }
+    ],
 	"require": {
 		"ext-mbstring": "*",
 		"php": "^7.0",
-		"wpackagist-plugin/quoty": "1.1.4"
+		"wpackagist-plugin/quoty": "1.1.4",
+		"wpackagist-plugin/ajax-load-more": "2.11.2"
 	}
 }
