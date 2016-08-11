@@ -11,6 +11,16 @@
 		"ext-mbstring": "*",
 		"php": "^7.0",
 		"wpackagist-plugin/quoty": "1.1.4",
-		"wpackagist-plugin/ajax-load-more": "2.11.2"
+		"wpackagist-plugin/ajax-load-more": "2.11.2",
+		"wpackagist-plugin/akismet": "3.1.11",
+		"wpackagist-plugin/all-in-one-seo-pack": "2.3.8",
+		"wpackagist-plugin/all-in-one-wp-security-and-firewall": "4.1.4",
+		"wpackagist-plugin/instagram-feed": "1.4.7",
+		"wpackagist-plugin/mailchimp-for-wp": "4.0.2",
+		"wpackagist-plugin/post-thumbnail-editor": "2.4.8",
+		"wpackagist-plugin/shortcodes-ultimate": "4.9.9",
+		"wpackagist-plugin/wordpress-https": "3.3.6",
+		"wpackagist-plugin/amazon-web-services": "0.3.6",
+		"wpackagist-plugin/amazon-s3-and-cloudfront": "1.0.4"
 	}
 }

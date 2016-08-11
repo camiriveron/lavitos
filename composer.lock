@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "09b688716849821dbfe0b3c94f4aef16",
-    "content-hash": "feee8699a1256a0fa9e8be7c7a42a297",
+    "hash": "d9d92ff6b2846a36321bdfb25965f41c",
+    "content-hash": "ebd93f693af6c9279463bbb96a1c1257",
     "packages": [
         {
             "name": "composer/installers",
@@ -130,6 +130,166 @@
             "homepage": "https://wordpress.org/plugins/ajax-load-more/"
         },
         {
+            "name": "wpackagist-plugin/akismet",
+            "version": "3.1.11",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/akismet/",
+                "reference": "tags/3.1.11"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/akismet.3.1.11.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/akismet/"
+        },
+        {
+            "name": "wpackagist-plugin/all-in-one-seo-pack",
+            "version": "2.3.8",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/all-in-one-seo-pack/",
+                "reference": "tags/2.3.8"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/all-in-one-seo-pack.2.3.8.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/all-in-one-seo-pack/"
+        },
+        {
+            "name": "wpackagist-plugin/all-in-one-wp-security-and-firewall",
+            "version": "4.1.4",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/all-in-one-wp-security-and-firewall/",
+                "reference": "trunk"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/all-in-one-wp-security-and-firewall.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/all-in-one-wp-security-and-firewall/"
+        },
+        {
+            "name": "wpackagist-plugin/amazon-s3-and-cloudfront",
+            "version": "1.0.4",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/amazon-s3-and-cloudfront/",
+                "reference": "tags/1.0.4"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/amazon-s3-and-cloudfront.1.0.4.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/amazon-s3-and-cloudfront/"
+        },
+        {
+            "name": "wpackagist-plugin/amazon-web-services",
+            "version": "0.3.6",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/amazon-web-services/",
+                "reference": "tags/0.3.6"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/amazon-web-services.0.3.6.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/amazon-web-services/"
+        },
+        {
+            "name": "wpackagist-plugin/instagram-feed",
+            "version": "1.4.7",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/instagram-feed/",
+                "reference": "tags/1.4.7"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/instagram-feed.1.4.7.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/instagram-feed/"
+        },
+        {
+            "name": "wpackagist-plugin/mailchimp-for-wp",
+            "version": "4.0.2",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/mailchimp-for-wp/",
+                "reference": "tags/4.0.2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/mailchimp-for-wp.4.0.2.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/mailchimp-for-wp/"
+        },
+        {
+            "name": "wpackagist-plugin/post-thumbnail-editor",
+            "version": "2.4.8",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/post-thumbnail-editor/",
+                "reference": "tags/2.4.8"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/post-thumbnail-editor.2.4.8.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/post-thumbnail-editor/"
+        },
+        {
             "name": "wpackagist-plugin/quoty",
             "version": "1.1.4",
             "source": {
@@ -148,6 +308,46 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/quoty/"
+        },
+        {
+            "name": "wpackagist-plugin/shortcodes-ultimate",
+            "version": "4.9.9",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/shortcodes-ultimate/",
+                "reference": "tags/4.9.9"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/shortcodes-ultimate.4.9.9.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/shortcodes-ultimate/"
+        },
+        {
+            "name": "wpackagist-plugin/wordpress-https",
+            "version": "3.3.6",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/wordpress-https/",
+                "reference": "tags/3.3.6"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/wordpress-https.3.3.6.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/wordpress-https/"
         }
     ],
     "packages-dev": [],
