@@ -2267,7 +2267,7 @@ video {
 			transition: 0.2s ease-in;
 }
 
-.load-more:hover {
+.load-more:hover, .load-more:active, .load-more:focus {
 	opacity: 0.85;
 	background-color: #e950ac;
     color: #ffffff;
