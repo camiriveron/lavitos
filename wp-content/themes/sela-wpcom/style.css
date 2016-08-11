@@ -2165,6 +2165,7 @@ video {
 }
 
 .infinite-scroll__hover {
+	opacity: 0;
 	display: none;
     color: #ffffff;
     position: absolute;
