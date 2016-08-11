@@ -2555,6 +2555,7 @@ video {
 	}
 
 	.infinite-scroll__hover {
+		opacity: 0;
 		display: flex;
 	    flex-direction: column;
 	    justify-content: space-between;
