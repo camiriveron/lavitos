@@ -331,6 +331,11 @@ input[type="submit"],
     vertical-align: middle;
     text-transform: uppercase;
     -webkit-appearance: none;
+    	-webkit-border-radius: 2px;
+	   	   -moz-border-radius: 2px;
+				border-radius: 2px;
+	-webkit-transition: 0.2s ease-in;
+			transition: 0.2s ease-in;
 }
 button:hover,
 html input[type="button"]:hover,
