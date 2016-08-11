@@ -543,6 +543,7 @@ textarea {
 	padding: 1em 0;
 	text-align: center;
 	text-transform: uppercase;
+	border: none;
 }
 .menu-toggle:hover,
 .menu-toggle:focus {
