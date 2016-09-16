@@ -8,8 +8,9 @@
         }
     ],
 	"require": {
+		"ext-gd": "*",
 		"ext-mbstring": "*",
-		"php": "5.6.24",
+		"php": "7.0.10",
 		"wpackagist-plugin/quoty": "1.1.4",
 		"wpackagist-plugin/akismet": "3.2",
 		"wpackagist-plugin/all-in-one-seo-pack": "2.3.9.2",
