@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "bc1ace1e0ff107dc8eb65b745b069fe7",
-    "content-hash": "4abb95e65cbe8a8c61f465f0dedb11dc",
+    "hash": "30aa8ecc0278ef8bdac11c487ba9d93e",
+    "content-hash": "66e0c91666d96b1a7da9a36e01f64edc",
     "packages": [
         {
             "name": "composer/installers",
@@ -136,15 +136,15 @@
         },
         {
             "name": "wpackagist-plugin/all-in-one-seo-pack",
-            "version": "2.3.8",
+            "version": "2.3.9.2",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/all-in-one-seo-pack/",
-                "reference": "tags/2.3.8"
+                "reference": "tags/2.3.9.2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/all-in-one-seo-pack.2.3.8.zip",
+                "url": "https://downloads.wordpress.org/plugin/all-in-one-seo-pack.2.3.9.2.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -216,15 +216,15 @@
         },
         {
             "name": "wpackagist-plugin/instagram-feed",
-            "version": "1.4.7",
+            "version": "1.4.8",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/instagram-feed/",
-                "reference": "tags/1.4.7"
+                "reference": "tags/1.4.8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/instagram-feed.1.4.7.zip",
+                "url": "https://downloads.wordpress.org/plugin/instagram-feed.1.4.8.zip",
                 "reference": null,
                 "shasum": null
             },
