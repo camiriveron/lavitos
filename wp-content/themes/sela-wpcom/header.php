@@ -15,6 +15,7 @@
 <link rel="profile" href="http://gmpg.org/xfn/11">
 <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
 <link href='https://fonts.googleapis.com/css?family=Meddon' rel='stylesheet' type='text/css'>
+<meta name="google-site-verification" content="U-qpGf9LNGCYOP8qWE_utKmAd_SZJqB3u8isaMraVc0"/>
 <?php wp_head(); ?>
 </head>
 
