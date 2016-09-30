@@ -8,7 +8,7 @@
 if ( post_password_required() )
 	return;
 ?>
-	<div class="fb-comments" expr:data-href="<?php the_permalink(); ?>" data-width="765" data-numposts="5"></div>
+	<div class="fb-comments" data-href="https://www.lavitos.cl" data-width="765" data-numposts="5"></div>
 	<div id="comments" class="comments-area">
 
 	<?php if ( have_comments() ) : ?>
