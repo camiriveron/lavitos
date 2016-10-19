@@ -44,6 +44,9 @@ define('DB_COLLATE', '');
 /* Disable File Editing on wp-admin */
 define('DISALLOW_FILE_EDIT', true);
 
+/* Google Analytics Key */
+define('GA_KEY', getenv('GA_KEY'));
+
 /**#@+
  * Authentication Unique Keys and Salts.
  *
