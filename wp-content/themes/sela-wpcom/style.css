@@ -2144,9 +2144,7 @@ video {
 	position: relative;
 	color: #ffffff;
 	margin-bottom: 1.5em;
-	margin-right: 1.5em;
 	overflow: hidden;
-	height: 330px;
 }
 
 .infinite-scroll__item img {
@@ -2510,6 +2508,11 @@ video {
 	.register-widget-area input[type="email"] {
 		width: 521px !important;
 	}
+
+	.infinite-scroll__item {
+		margin-right: 1.5em;
+		height: 330px;
+	}
     
 }
 
@@ -2567,6 +2570,7 @@ video {
 	}
 
 }
+
 @media screen and (min-width: 998px) {
 	/* Full-Width Page Template */
 	.content-wrapper.full-width.with-featured-image {
