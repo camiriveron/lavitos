@@ -2212,7 +2212,7 @@ video {
 
 .infinite-scroll__title {
 	line-height: 3rem;
-    height: 4rem;
+    min-height: 4rem;
     direction: rtl;
     margin-right: 1rem;
 	margin-left: 1rem;
@@ -2233,6 +2233,11 @@ video {
     text-align: center;
     margin-top: 1em;
     font-style: italic;
+}
+
+.infinite-scroll__resumen p {
+	max-height: 9em;
+	overflow: hidden;
 }
 
 .alm-btn-wrap {
