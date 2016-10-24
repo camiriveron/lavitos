@@ -1017,7 +1017,7 @@ textarea {
 	padding-left: 4.661%;
 	padding-bottom: 0%;
     padding-top: 2%;
-    min-height: 20vh;
+    min-height: 27vh;
     position: relative;
 	display: flex;
     flex-direction: column;
@@ -2309,6 +2309,7 @@ video {
 
 	.site-branding, .site-navigation {
 	    padding-bottom: 2%;
+	    min-height: 20vh;
 	}
 }
 
