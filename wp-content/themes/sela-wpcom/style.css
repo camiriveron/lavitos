@@ -1018,7 +1018,6 @@ textarea {
 	padding-bottom: 2%;
     padding-top: 2%;
     min-height: 150px;
-    background-size: 720px;
     position: relative;
 	display: flex;
     flex-direction: column;
