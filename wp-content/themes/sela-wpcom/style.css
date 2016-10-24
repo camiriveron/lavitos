@@ -1807,6 +1807,7 @@ video {
 .l-carousel .item {
 	margin-left: 3px;
 	margin-right: 3px;  
+	margin-bottom: -5px;
 }
 
 .l-carousel.owl-carousel .owl-item {
