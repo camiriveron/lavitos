@@ -67,11 +67,11 @@ get_header(); ?>
 
 	owl.owlCarousel({
         items : 4,
-        itemsDesktop : [1500,3], //5 items between 1000px and 901px
-		itemsDesktopSmall : [1100,2], // betweem 900px and 601px
-		itemsTablet: [700,1], //2 items between 600 and 0
-		itemsMobile : false, // itemsMobile disabled - inherit from itemsTablet option
-        navigation : false,
+        itemsDesktop : [1500,4], //5 items between 1000px and 901px
+		itemsDesktopSmall : [1100,3], // betweem 900px and 601px
+		itemsTablet: [700,2], //2 items between 600 and 0
+		itemsMobile: [479,1], // itemsMobile disabled - inherit from itemsTablet option
+        navigation: false,
         pagination: false,
         slideSpeed: 700,
         scrollPerPage: true,
