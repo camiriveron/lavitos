@@ -70,7 +70,7 @@ get_header(); ?>
         itemsDesktop : [1500,4], //5 items between 1000px and 901px
 		itemsDesktopSmall : [1300,3], // betweem 900px and 601px
 		itemsTablet: [850,2], //2 items between 600 and 0
-		itemsMobile: [700,1], // itemsMobile disabled - inherit from itemsTablet option
+		itemsMobile: [600,1], // itemsMobile disabled - inherit from itemsTablet option
         navigation : false,
         pagination: false,
         slideSpeed: 700,
