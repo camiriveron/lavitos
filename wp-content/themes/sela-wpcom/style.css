@@ -500,7 +500,7 @@ textarea {
 }
 .main-navigation ul ul a:hover,
 .main-navigation ul ul li.focus > a {
-	color: #5d5d5d;
+	color: #4f4f4f;
 }
 .main-navigation ul ul ul {
 	margin-bottom: 0;
@@ -521,9 +521,10 @@ textarea {
 .main-navigation li.current-menu-item > a,
 .main-navigation li.current_page_ancestor > a,
 .main-navigation li.current-menu-ancestor > a {
-	color: #4f4f4f;
+	color: #5d5d5d;
 	font-weight: bold;
 }
+
 .menu-toggle {
 	box-shadow: none;
 	color: #e950ac;
