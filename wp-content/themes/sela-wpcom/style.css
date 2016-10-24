@@ -1017,11 +1017,11 @@ textarea {
 	padding-left: 4.661%;
 	padding-bottom: 0%;
     padding-top: 2%;
-    min-height: 27vh;
+    min-height: 28vh;
     position: relative;
 	display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
 }
 .site-branding a + .site-title {
