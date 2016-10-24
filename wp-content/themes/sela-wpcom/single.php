@@ -44,7 +44,7 @@ get_header(); ?>
 				  'tag__in' => $tag_ids,
 				  'post__not_in' => array($post->ID),
 				  'posts_per_page'=>3, // Number of related posts to display.
-				  'caller_get_posts'=>1
+				  'ignore_sticky_posts'=>1
 				  );
 				   
 				  $my_query = new wp_query( $args );
@@ -56,8 +56,8 @@ get_header(); ?>
 						<h3 class="widget-title">Historias Relacionadas</h3>
 						<div class="related-posts">
 				  <?php		
-				  while( $my_query->have_posts() ) {
-				  $my_query->the_post();
+				  while( $my_query->have_posts() ) { 
+				  	$my_query->the_post();
 				  ?>	
 
 						  <div class="relatedthumb">
