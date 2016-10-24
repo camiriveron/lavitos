@@ -464,7 +464,7 @@ textarea {
     font-weight: 600;
     line-height: 1.7143;
     letter-spacing: 2px;
-	color: #e950ac;
+	color: #4f4f4f;
 	display: block;
 	line-height: 1.7143;
 	cursor: pointer;
@@ -521,7 +521,7 @@ textarea {
 .main-navigation li.current-menu-item > a,
 .main-navigation li.current_page_ancestor > a,
 .main-navigation li.current-menu-ancestor > a {
-	color: #5d5d5d;
+	color: #e950ac;
 	font-weight: bold;
 }
 
