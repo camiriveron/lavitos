@@ -33,6 +33,7 @@ get_header(); ?>
 				?>	
 
 				<?php
+				remove_all_filters('posts_orderby');
 				$tags = wp_get_post_terms( get_queried_object_id(), 'post_tag', ['fields' => 'ids'] );
 				$do_not_duplicate = array();
 				$args = [
