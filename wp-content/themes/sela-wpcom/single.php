@@ -48,7 +48,7 @@ get_header(); ?>
 				            'terms'    => $tags
 				        ]
 				    ],
-				    'orderby' => 'rand'
+				    'orderby' => 'none'
 				];
 				$my_query = new wp_query( $args );
 
