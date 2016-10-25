@@ -2256,7 +2256,9 @@ video {
     cursor: pointer;
     display: inline-block;
     font-size: 12px;
-    font-size: 1.2rem;
+    font-size: 1.1rem;
+    width: 100px;
+    height: 100px;
     font-weight: bold;
     line-height: 2;
     padding: 6px 15px;
@@ -2264,11 +2266,11 @@ video {
     vertical-align: middle;
     text-transform: uppercase;
     -webkit-appearance: none;
-    	-webkit-border-radius: 2px;
-	   	   -moz-border-radius: 2px;
-				border-radius: 2px;
-	-webkit-transition: 0.2s ease-in;
-			transition: 0.2s ease-in;
+    	-webkit-border-radius: 50%;
+	   	   -moz-border-radius: 50%;
+				border-radius: 50%;
+	-webkit-transition: 0.3s ease-in;
+			transition: 0.3s ease-in;
 }
 
 .load-more:hover, .load-more:active, .load-more:focus {
