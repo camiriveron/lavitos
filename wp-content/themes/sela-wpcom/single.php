@@ -36,7 +36,7 @@ get_header(); ?>
 				$tags = wp_get_post_terms( get_queried_object_id(), 'post_tag', ['fields' => 'ids'] );
 				$do_not_duplicate = array();
 				$args = [
-					'post_type' => 'post',
+					'post_type' 		  => 'post',
 				    'post__not_in'        => array( get_queried_object_id() ),
 				    'posts_per_page'      => 20,
 				    'ignore_sticky_posts' => 1,
@@ -46,7 +46,8 @@ get_header(); ?>
 				            'taxonomy' => 'post_tag',
 				            'terms'    => $tags
 				        ]
-				    ]
+				    ],
+				    'orderby' => 'rand'
 				];
 				$my_query = new wp_query( $args );
 
