@@ -34,11 +34,10 @@ get_header(); ?>
 
 				<?php
 				$tags = wp_get_post_terms( get_queried_object_id(), 'post_tag', ['fields' => 'ids'] );
-				echo count($tags);
 				$args = [
 				    'post__not_in'        => array( get_queried_object_id() ),
 				    'posts_per_page'      => 3,
-				    'ignore_sticky_posts' => 1,
+				    'ignore_sticky_posts' => 0,
 				    'orderby'             => 'rand',
 				    'tax_query' => [
 				        [
@@ -49,6 +48,7 @@ get_header(); ?>
 				];
 				$my_query = new wp_query( $args );
 				if( $my_query->have_posts() ) {
+					echo 'Hola';
 				    echo '<div class="related-posts__wrapper">
 						<h3 class="widget-title">Historias Relacionadas</h3>
 						<div class="related-posts">';
