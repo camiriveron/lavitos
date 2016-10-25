@@ -38,7 +38,7 @@ get_header(); ?>
 				$args = [
 					'post_type' => 'post',
 				    'post__not_in'        => array( get_queried_object_id() ),
-				    'posts_per_page'      => 15,
+				    'posts_per_page'      => 20,
 				    'ignore_sticky_posts' => 1,
 				    'post_status' => 'publish',
 				    'tax_query' => [
