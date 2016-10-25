@@ -34,7 +34,7 @@ get_header(); ?>
 
 				<?php
 				$tags = wp_get_post_terms( get_queried_object_id(), 'post_tag', ['fields' => 'ids'] );
-				echo $tags;
+				echo count($tags);
 				$args = [
 				    'post__not_in'        => array( get_queried_object_id() ),
 				    'posts_per_page'      => 3,
