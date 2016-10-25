@@ -33,11 +33,10 @@ get_header(); ?>
 				?>	
 
 				<?php
-				$orig_post = $post;
- 				global $post;
-				$tags = wp_get_post_terms( $post->ID, 'post_tag', ['fields' => 'ids'] );
+				$tags = wp_get_post_terms( get_queried_object_id(), 'post_tag', ['fields' => 'ids'] );
+				echo $tags;
 				$args = [
-				    'post__not_in'        => array( $post->ID ),
+				    'post__not_in'        => array( get_queried_object_id() ),
 				    'posts_per_page'      => 3,
 				    'ignore_sticky_posts' => 1,
 				    'orderby'             => 'rand',
@@ -64,7 +63,6 @@ get_header(); ?>
 							    </a>
 						  </div>
 				        <?php }
-				        $post = $orig_post;
 				        wp_reset_postdata();
 				    echo '</div></div><!--related-->';
 				}
