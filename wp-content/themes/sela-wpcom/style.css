@@ -2007,6 +2007,7 @@ video {
 
 .relatedthumb a {
     padding: 5px;
+    width: 200px;
 }
 
 .relatedthumb a {
@@ -2542,6 +2543,10 @@ video {
 	.infinite-scroll__item {
 		margin-right: 1.5em;
 		height: 330px;
+	}
+
+	.related-posts {
+	    align-items: flex-start;
 	}
     
 }
