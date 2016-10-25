@@ -40,9 +40,9 @@ get_header(); ?>
 				    'post__not_in'        => array( get_queried_object_id() ),
 				    'posts_per_page'      => 20,
 				    'ignore_sticky_posts' => 1,
-				    'orderby' => 'rand',
-				    'post_status' => 'publish',
-				    'tax_query' => [
+				    'orderby'             => 'rand',
+				    'post_status'		  => 'publish',
+				    'tax_query'			  => [
 				        [
 				            'taxonomy' => 'post_tag',
 				            'terms'    => $tags
