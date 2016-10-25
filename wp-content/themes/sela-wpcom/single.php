@@ -55,7 +55,7 @@ get_header(); ?>
 				    echo '<div class="related-posts__wrapper">
 						<h3 class="widget-title">Historias Relacionadas</h3>
 						<div class="related-posts">';
-				        while( $my_query->have_posts() || $i < 3 ) {
+				        while( $my_query->have_posts() || $i < 2 ) {
 				            $my_query->the_post();
 
 				            if ( !in_array( $post->ID, $do_not_duplicate ) ) {
