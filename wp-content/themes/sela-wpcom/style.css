@@ -2279,6 +2279,12 @@ video {
     color: #ffffff;
 }
 
+.load-more:active, .load-more:focus {
+	opacity: 0.85;
+    background-color: #ffffff;
+    color: #e950ac;
+    outline: none;
+}
 
 
 /*--------------------------------------------------------------
