@@ -84,6 +84,7 @@ a:focus,
 a:active {
 	color: #aaa;
 	text-decoration: none;
+    outline: none;
 }
 a:hover,
 a:active {
